@@ -1,0 +1,14 @@
+configuration {
+	terminal: "alacritty";
+	modes: "ssh,run,drun,window,combi";
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+}
+
+@theme "~/.config/rofi/gruvbox-material.rasi"
+
+
