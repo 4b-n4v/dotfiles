@@ -96,11 +96,21 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+#
+# ALIASES 
+#
+# -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="cd ~/.oh-my-zsh"
 alias i3config="nvim ~/.config/i3/config"
-alias alaconfig="nvim ~/.config/alacritty/alacritty.toml"
+alias alacconfig="nvim ~/.config/alacritty/alacritty.toml"
 alias barconfig="nvim ~/.config/polybar/config.ini"
 alias roficonfig="nvim ~/.config/rofi/config.rasi"
 alias keyconfig="sudo nvim /etc/keyd/default.conf"
+alias picconfig="nvim ~/.config/picom/picom.conf"
+# -CD CONFIGS-
+alias zshdir="cd ~/.oh-my-zsh"
+alias nvimdir="cd ~/.config/nvim"
+alias i3dir="cd ~/.config/i3"
+alias aladir="cd ~/.config/alacritty"
+alias bardir="cd ~/.config/polybar"
+alias rofidir="cd ~/.config/picom"
