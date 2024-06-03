@@ -206,9 +206,10 @@ set $aqua #689d68
 set $gray #a89984
 set $darkgray #1d2021
 set $lightgray #bdae93
+set $slightgray #7b7260
 # class                 border|backgr|text|indicator|child_border
-client.focused          $lightgray $lightgray $bg $bg $darkgray
-client.focused_inactive $darkgray $darkgray $lightgray $bg $darkgray
+client.focused          $darkgray $darkgray $lightgray $bg $darkgray
+client.focused_inactive $darkgray $darkgray $slightgray $bg $darkgray
 client.unfocused        $darkgray $darkgray $lightgray $bg $darkgray
 client.urgent           $red $red $white $red $red
 # For screenshots install :
@@ -223,3 +224,8 @@ bindsym Shift+Print exec --no-startup-id maim --format=png --select "/home/$USER
 bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
 bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
+
+## Monitor Modes
+
+bindsym $mod+m exec --no-startup-id ~/.screenlayout/display_first.sh
+

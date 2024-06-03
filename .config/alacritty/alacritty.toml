@@ -1,7 +1,8 @@
 # Theme 
 import = ["~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"]
+[window]
+	dynamic_padding = true
 # Font config
-
 [font]
 	normal = { family = "FiraCode Nerd Font Mono", style = "Regular"}
 	bold = { family = "FiraCode Nerd Font Mono", style = "Regular" }

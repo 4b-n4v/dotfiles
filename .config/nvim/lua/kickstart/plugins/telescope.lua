@@ -109,6 +109,7 @@ return {
 				builtin.find_files { cwd = vim.fn.stdpath 'config', follow = true }
 			end, { desc = '[S]earch [N]eovim files' })
 
+			-- CUSTOM KEYMAPPINGS
 			vim.keymap.set('n', '<leader>sp', function()
 				builtin.find_files { cwd = '~/projects/' }
 			end, { desc = '[S]earch [P]roject files' })
