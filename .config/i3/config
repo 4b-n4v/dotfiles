@@ -210,7 +210,7 @@ set $slightgray #7b7260
 # class                 border|backgr|text|indicator|child_border
 client.focused          $darkgray $darkgray $lightgray $bg $darkgray
 client.focused_inactive $darkgray $darkgray $slightgray $bg $darkgray
-client.unfocused        $darkgray $darkgray $lightgray $bg $darkgray
+client.unfocused        $darkgray $darkgray $slightgray $bg $darkgray
 client.urgent           $red $red $white $red $red
 # For screenshots install :
 # apt-get install maim xclip copyq
