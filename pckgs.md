@@ -1,0 +1,25 @@
+# Packages
+
+- Alacritty
+- Firefox
+- fzf
+- Git
+- Github CLI
+- Gnome
+- I3-WM
+- JDK-OpenJDK
+- Loupe
+- Neofetch
+- Neovim
+- Nvida
+- npm
+- picom
+- ripgre
+- rofi
+- stremio
+- tmux 
+- ttf-firacode-nerd
+- ttf-font-awesome
+- vlc
+- yay
+- zsh
