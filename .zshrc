@@ -107,6 +107,8 @@ alias barconfig="nvim ~/.config/polybar/config.ini"
 alias roficonfig="nvim ~/.config/rofi/config.rasi"
 alias keyconfig="sudo nvim /etc/keyd/default.conf"
 alias picconfig="nvim ~/.config/picom/picom.conf"
+alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
+alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
 alias nvimdir="cd ~/.config/nvim"
