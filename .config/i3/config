@@ -216,15 +216,17 @@ client.urgent           $red $red $white $red $red
 # apt-get install maim xclip copyq
 
 ##  Screenshots in files
-bindsym Print exec --no-startup-id maim --format=png "/home/$USER/Pictures/screenshots/$(date +'%Y%m%d-%H%M%SZ')-screenshot-all.png"
-bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) "/home/$USER/Pictures/screenshots/$(date +'%Y%m%d-%H%M%SZ')-screenshot-current.png"
-bindsym Shift+Print exec --no-startup-id maim --format=png --select "/home/$USER/Pictures/screenshots/$(date +'%Y%m%d-%H%M%SZ')-screenshot-selected.png"
+bindsym Print exec --no-startup-id maim --format=png "/home/$USER/Pictures/screenshots/all/$(date +'%Y%m%d-%H%M%SZ')-screenshot-all.png"
+bindsym $mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) "/home/$USER/Pictures/screenshots/current/$(date +'%Y%m%d-%H%M%SZ')-screenshot-current.png"
+bindsym Shift+Print exec --no-startup-id maim --format=png --select "/home/$USER/Pictures/screenshots/selected/$(date +'%Y%m%d-%H%M%SZ')-screenshot-selected.png"
 
 ## Screenshots in clipboards
 bindsym Ctrl+Print exec --no-startup-id maim --format=png | xclip -selection clipboard -t image/png
 bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
 
+## Screenshot and save to file and copy to clipboard
+bindsym $mod+shift+s exec --no-startup-id sh -c 'tempfile=$(mktemp /tmp/screenshot-XXXXXX.png) && maim --format=png --select "$tempfile" && cp "$tempfile" "/home/$USER/Pictures/screenshots/clipboard/$(date +'%Y%m%d-%H%M%SZ')-clipboard.png" && xclip -selection clipboard -t image/png < "$tempfile" && rm "$tempfile"'
 ## Monitor Modes
 
 bindsym $mod+m exec --no-startup-id ~/.screenlayout/display_first.sh
