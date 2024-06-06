@@ -109,6 +109,7 @@ alias keyconfig="sudo nvim /etc/keyd/default.conf"
 alias picconfig="nvim ~/.config/picom/picom.conf"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
+alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
 alias nvimdir="cd ~/.config/nvim"
@@ -116,7 +117,13 @@ alias i3dir="cd ~/.config/i3"
 alias aladir="cd ~/.config/alacritty"
 alias bardir="cd ~/.config/polybar"
 alias rofidir="cd ~/.config/picom"
+alias yazidir="cd ~/.config/yazi"
+alias autodir="cd ~/.config/autorandr"
+# Alias change default sound output
+alias speaker="pactl set-default-sink"
+alias display="autorandr -l"
 
+# YAZI
 function yy() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
 	yazi "$@" --cwd-file="$tmp"
