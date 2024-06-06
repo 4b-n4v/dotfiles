@@ -4,7 +4,6 @@
 set $mod Mod4
 workspace_auto_back_and_forth yes
 font pango:FiraCode Nerd Font Mono 6
-
 ########################################
 # EXEC COMMANDS
 ########################################

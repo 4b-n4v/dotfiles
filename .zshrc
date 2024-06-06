@@ -110,6 +110,7 @@ alias picconfig="nvim ~/.config/picom/picom.conf"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
 alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
+alias lvim="~/Documents/scripts/learnvim.sh"
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
 alias nvimdir="cd ~/.config/nvim"
@@ -132,3 +133,9 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
+
+
+## OPTIONAL INSTALLS 
+
+# Dart 2.12.0
+export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
