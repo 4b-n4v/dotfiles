@@ -114,6 +114,7 @@ alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
 alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
 alias lvim="~/Documents/scripts/learnvim.sh"
+alias zellconfig="nvim ~/.config/zellij/config.kdl"
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
 alias nvimdir="cd ~/.config/nvim"
@@ -123,6 +124,7 @@ alias bardir="cd ~/.config/polybar"
 alias rofidir="cd ~/.config/picom"
 alias yazidir="cd ~/.config/yazi"
 alias autodir="cd ~/.config/autorandr"
+alias zelldir="cd ~/.config/zellij"
 # Alias change default sound output
 alias speaker="pactl set-default-sink"
 alias display="autorandr -l"
@@ -143,4 +145,4 @@ function yy() {
 # Dart 2.12.0
 export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
 
-# eval "$(zellij setup --generate-auto-start zsh)"
+eval "$(zellij setup --generate-auto-start zsh)"
