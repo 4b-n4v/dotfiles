@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # ALIASES 
 #
 # -COMMAND ALIASES- 
-alias p="pacman"
+alias p="sudo pacman"
 alias c="clear"
 # -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"
