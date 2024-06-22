@@ -99,6 +99,9 @@ source $ZSH/oh-my-zsh.sh
 #
 # ALIASES 
 #
+# -COMMAND ALIASES- 
+alias p="pacman"
+alias c="clear"
 # -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"
 alias i3config="nvim ~/.config/i3/config"
