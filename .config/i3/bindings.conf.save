@@ -1,4 +1,4 @@
-################
+##############
 # -0-0 ROFI 0-0-
 ################
 bindsym $mod+d exec rofi -show combi
@@ -97,6 +97,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 mode "display" {
+        i3-msg "display mode"
         bindsym 1 exec autorandr extend144
         bindsym 2 exec autorandr extend-tv
         bindsym 3 exec autorandr second144 

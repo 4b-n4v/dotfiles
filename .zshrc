@@ -102,6 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # -COMMAND ALIASES- 
 alias p="sudo pacman"
 alias c="clear"
+alias z="zellij"
+alias lg="lazygit"
 # -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"
 alias i3config="nvim ~/.config/i3/config"
@@ -111,7 +113,7 @@ alias roficonfig="nvim ~/.config/rofi/config.rasi"
 alias keyconfig="sudo nvim /etc/keyd/default.conf"
 alias picconfig="nvim ~/.config/picom/picom.conf"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
-alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
+# alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
 alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
 alias lvim="~/Documents/scripts/learnvim.sh"
 alias zellconfig="nvim ~/.config/zellij/config.kdl"
@@ -145,4 +147,4 @@ function yy() {
 # Dart 2.12.0
 export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
 
-eval "$(zellij setup --generate-auto-start zsh)"
+# eval "$(zellij setup --generate-auto-start zsh)"
