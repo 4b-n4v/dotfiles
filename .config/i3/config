@@ -114,7 +114,7 @@ set $blue #458588
 set $purple #b16286
 set $aqua #689d68
 set $gray #a89984
-set $darkgray #1d2021
+set $darkgray #282828
 set $lightgray #bdae93
 set $slightgray #7b7260
 # class                 border|backgr|text|indicator|child_border
