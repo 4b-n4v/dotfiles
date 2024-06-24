@@ -1,32 +1,33 @@
 layout {
     cwd "/home/n4v"
-    tab name="code" focus=true hide_floating_panes=true {
+    tab name="Code" focus=true hide_floating_panes=true {
         pane size=1 borderless=true {
             plugin location="zellij:tab-bar"
         }
-        pane command="zellij" cwd="Projects/craftinginterpreters/jlox/com/craftinginterpreters/lox" focus=true {
-            args "action" "dump-layout"
-            start_suspended true
+        pane cwd="Projects/craftinginterpreters/jlox/com/craftinginterpreters/lox" focus=true {
         }
         pane size=2 borderless=true {
             plugin location="zellij:status-bar"
         }
     }
-    tab name="server" hide_floating_panes=true {
+    tab name="Server" hide_floating_panes=true {
         pane size=1 borderless=true {
             plugin location="zellij:tab-bar"
         }
-        pane
+        pane command="make" {
+            args "-C" "/home/n4v/Projects/craftinginterpreters/official_repo/" "serve"
+            start_suspended false
+        }
         pane size=2 borderless=true {
             plugin location="zellij:status-bar"
         }
     }
-    tab name="lazygit" hide_floating_panes=true {
+    tab name="Lazygit" hide_floating_panes=true {
         pane size=1 borderless=true {
             plugin location="zellij:tab-bar"
         }
         pane command="lazygit" cwd="Projects/craftinginterpreters/jlox" {
-            start_suspended true
+            start_suspended false
         }
         pane size=2 borderless=true {
             plugin location="zellij:status-bar"
