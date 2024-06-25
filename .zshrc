@@ -104,8 +104,6 @@ alias p="sudo pacman"
 alias c="clear"
 alias z="zellij"
 alias lg="lazygit"
-alias zkas="zellij kill-all-sessions"
-alias zdas="zellij delete-all-sessions"
 alias zc="zellij -l compact"
 # -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"
@@ -150,4 +148,4 @@ function yy() {
 # Dart 2.12.0
 export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
 
-# eval "$(zellij setup --generate-auto-start zsh)"
+eval "$(zellij -l compact setup --generate-auto-start zsh)"
