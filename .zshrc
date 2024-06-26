@@ -105,6 +105,8 @@ alias c="clear"
 alias z="zellij"
 alias lg="lazygit"
 alias zc="zellij -l compact"
+alias lvim="~/.dotfiles/Documents/scripts/learnvim.sh"
+alias reset_tty="~/.dotfiles/Documents/scripts/reset_tty.sh"
 # -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"
 alias i3config="nvim ~/.config/i3/config"
@@ -116,7 +118,6 @@ alias picconfig="nvim ~/.config/picom/picom.conf"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 # alias tmuxconfig="nvim ~/.config/tmux/tmux.conf"
 alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
-alias lvim="~/Documents/scripts/learnvim.sh"
 alias zellconfig="nvim ~/.config/zellij/config.kdl"
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
@@ -148,4 +149,4 @@ function yy() {
 # Dart 2.12.0
 export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
 
-eval "$(zellij -l compact setup --generate-auto-start zsh)"
+# eval "$(zellij -l compact setup --generate-auto-start zsh)"
