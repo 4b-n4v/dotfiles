@@ -1,14 +1,24 @@
 #!/bin/bash
 
-# Prompt the user for the file to back up
-echo "Which file to back up?"
-read -e filename
+# Function to back up a file
+backup_file() {
+  local file=$1
+  if [[ -f "$file" ]]; then
+    cp "$file" "${file}.bak"
+    echo "Backup of '$file' created as '${file}.bak'"
+  else
+    echo "File '$file' does not exist in the current directory."
+  fi
+}
 
-# Check if the file exists in the current directory
-if [[ -f "$filename" ]]; then
-  # Create a backup with the .bak extension
-  cp "$filename" "${filename}.bak"
-  echo "Backup of '$filename' created as '${filename}.bak'"
+# Check if arguments are provided
+if [[ $# -gt 0 ]]; then
+  for file in "$@"; do
+    backup_file "$file"
+  done
 else
-  echo "File '$filename' does not exist in the current directory."
+  # Prompt the user for the file to back up
+  echo "Which file to back up?"
+  read -e filename
+  backup_file "$filename"
 fi
