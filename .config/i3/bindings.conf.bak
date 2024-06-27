@@ -97,12 +97,12 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 mode "display" {
-        bindsym 1 exec autorandr extend144 && $HOME/.config/polybar/launch.sh
-        bindsym 2 exec autorandr extend-tv && $HOME/.config/polybar/launch.sh
-        bindsym 3 exec autorandr second144 && $HOME/.config/polybar/launch.sh 
-        bindsym 4 exec autorandr second-tv && $HOME/.config/polybar/launch.sh
-        bindsym 5 exec autorandr mirror && $HOME/.config/polybar/launch.sh
-        bindsym 0 exec autorandr dock && $HOME/.config/polybar/launch.sh
+        bindsym 1 exec autorandr extend144 && i3-msg reload
+        bindsym 2 exec autorandr extend-tv && i3-msg reload
+        bindsym 3 exec autorandr second144  && i3-msg reload
+        bindsym 4 exec autorandr second-tv && i3-msg reload
+        bindsym 5 exec autorandr mirror && i3-msg reload
+        bindsym 0 exec autorandr dock && i3-msg reload
         
         bindsym Return mode "default"
         bindsym Escape mode "default"

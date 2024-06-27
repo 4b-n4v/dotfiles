@@ -1,12 +1,14 @@
-killall polybar
 if type "xrandr"; then
+	echo 1
 	if [[ "$(xrandr --query | grep " connected" | cut -d "+" -f2 | uniq -c | cut -d " " -f7)" != "2" ]]; then
+		echo 2
 		for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-			MONITOR=$m polybar --reload 4bn4v 
+			echo 3
 		done
 	else
-		MONITOR=DP-2 polybar --reload 4bn4v
+		echo 5
 	fi
+	echo 6
 else
-	polybar --reload 4bn4v &
+	echo 7
 fi

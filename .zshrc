@@ -1,8 +1,9 @@
 export ZSH="$HOME/.config/oh-my-zsh/.oh-my-zsh"
-
+fpath=(~/.config/oh-my-zsh/custom/functions $fpath)
 # Set zsh theme
 # Put "random" for a random theme everytime zsh boots
 ZSH_THEME="ys"
+autoload _zellij
 
 # For case sensitive completion
 # CASE_SENSITIVE="true"
@@ -98,4 +99,4 @@ function yy() {
 export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
 
 # Setting zellij to autostart
-# eval "$(zellij -l compact setup --generate-auto-start zsh)"
+eval "$(zellij -l compact setup --generate-auto-start zsh)"

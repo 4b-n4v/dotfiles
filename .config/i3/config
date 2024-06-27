@@ -120,8 +120,8 @@ set $darkgray #282828
 set $lightgray #bdae93
 set $slightgray #7b7260
 # class                 border|backgr|text|indicator|child_border
-client.focused          $yellow $yellow $lightgray $bg $yellow
-client.focused_inactive $yellow $darkgray $slightgray $bg $yellow
-client.unfocused        $yellow $darkgray $slightgray $bg $yellow
+client.focused          $slightgray $darkgray $lightgray $bg $yellow
+client.focused_inactive $darkgray $darkgray $slightgray $bg $yellow
+client.unfocused        $darkgray $darkgray $slightgray $bg $yellow
 client.urgent           $red $red $white $red $red
 
