@@ -8,7 +8,9 @@ include ~/.dotfiles/.config/i3/bindings.conf
 ########################################
 set $mod Mod4
 workspace_auto_back_and_forth yes
-font pango:FiraCode Nerd Font Mono 6
+font pango:FiraCode Nerd Font Mono 0
+default_border pixel 0
+for_window [class="^.*"] border pixel 0
 ########################################
 # EXEC COMMANDS
 ########################################
@@ -118,8 +120,8 @@ set $darkgray #282828
 set $lightgray #bdae93
 set $slightgray #7b7260
 # class                 border|backgr|text|indicator|child_border
-client.focused          $darkgray $darkgray $lightgray $bg $darkgray
-client.focused_inactive $darkgray $darkgray $slightgray $bg $darkgray
-client.unfocused        $darkgray $darkgray $slightgray $bg $darkgray
+client.focused          $yellow $yellow $lightgray $bg $yellow
+client.focused_inactive $yellow $darkgray $slightgray $bg $yellow
+client.unfocused        $yellow $darkgray $slightgray $bg $yellow
 client.urgent           $red $red $white $red $red
 
