@@ -30,6 +30,11 @@ return {
 						-- end,
 					},
 				},
+				["core.summary"] = { config = { strategy = "by_path" } },
+				["core.ui.calendar"] = {},
+				["core.completion"] = {
+					config = { engine = "nvim-cmp" },
+				},
 			},
 		})
 	end,
@@ -38,4 +43,11 @@ return {
 	vim.keymap.set("n", "<leader>ni", "<CMD>Neorg index<CR>", { desc = "[N]eorg [I]ndex" }),
 	vim.keymap.set("n", "<leader>nr", "<CMD>:w<CR><CMD>Neorg return<CR>", { desc = "[N]eorg [R]eturn" }),
 	vim.keymap.set("n", "<leader>ntc", "<CMD>Neorg toggle-concealer<CR>", { desc = "[N]eorg [T]oggle [C]oncealer" }),
+	vim.keymap.set(
+		"n",
+		"<leader>ngs",
+		"<CMD>Neorg generate-workspace-summary<CR>",
+		{ desc = "[N]eorg [G]enerate Worskpace [S]ummary" }
+	),
+	vim.keymap.set("n", "<leader>nwj", "<CMD>Neorg workspace jlox<CR>", { desc = "[N]eorg [W]orkspace [J]lox" }),
 }

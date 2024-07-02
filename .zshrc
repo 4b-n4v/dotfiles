@@ -48,7 +48,7 @@ alias lg="lazygit"
 alias zc="zellij -l compact"
 alias rm="rm -i"
 alias mv="mv -i"
-alias ls="exa"
+alias ls="exa --group-directories-first"
 alias lst="exa -a -l -h -U -T --ignore-glob=\"git\""
 
 # -SHELL SCRIPT ALIASES-

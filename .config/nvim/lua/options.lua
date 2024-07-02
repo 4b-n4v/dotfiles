@@ -61,4 +61,6 @@ vim.opt.scrolloff = 10
 -- set theme
 vim.g.gruvbox_material_foreground = "material"
 vim.g.gruvbox_material_background = "medium"
+-- set conceal level
+vim.opt.conceallevel = 3
 -- vim: ts=2 sts=2 sw=2 et
