@@ -33,4 +33,9 @@ return {
 			},
 		})
 	end,
+	-- Some personal keymappings for Neorg
+	vim.keymap.set("n", "<leader>n", "<CMD>Neorg<CR>", { desc = "[N]eorg" }),
+	vim.keymap.set("n", "<leader>ni", "<CMD>Neorg index<CR>", { desc = "[N]eorg [I]ndex" }),
+	vim.keymap.set("n", "<leader>nr", "<CMD>:w<CR><CMD>Neorg return<CR>", { desc = "[N]eorg [R]eturn" }),
+	vim.keymap.set("n", "<leader>ntc", "<CMD>Neorg toggle-concealer<CR>", { desc = "[N]eorg [T]oggle [C]oncealer" }),
 }

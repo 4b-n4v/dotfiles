@@ -1,5 +1,5 @@
 configuration {
-	terminal: "alacritty";
+	terminal: "kitty";
 	modes: "ssh,run,drun,window,combi";
     display-ssh:    "";
     display-run:    "";

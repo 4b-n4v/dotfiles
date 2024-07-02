@@ -48,6 +48,7 @@ alias lg="lazygit"
 alias zc="zellij -l compact"
 alias rm="rm -i"
 alias mv="mv -i"
+alias ls="exa"
 alias lst="exa -a -l -h -U -T --ignore-glob=\"git\""
 
 # -SHELL SCRIPT ALIASES-
@@ -67,6 +68,7 @@ alias picconfig="nvim ~/.config/picom/picom.conf"
 alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
 alias zellconfig="nvim ~/.config/zellij/config.kdl"
+alias neorgconfig="nvim ~/.config/nvim/lua/custom/plugins/neorg.lua"
 
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
