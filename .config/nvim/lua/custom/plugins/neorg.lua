@@ -11,6 +11,11 @@ return {
 					config = {
 						folds = false,
 						icon_preset = "basic",
+						code_block = {
+							content_only = true,
+							conceal = true,
+							width = "content",
+						},
 					},
 				},
 				["core.dirman"] = {
@@ -18,9 +23,15 @@ return {
 						workspaces = {
 							notes = "~/Documents/notes/",
 							jlox = "~/Documents/notes/jlox/",
+							journal = "~/Documents/notes/journal",
 						},
 						index = "index.norg",
 						default_workspace = "notes",
+					},
+				},
+				["core.journal"] = {
+					config = {
+						workspace = "journal",
 					},
 				},
 				["core.keybinds"] = {
