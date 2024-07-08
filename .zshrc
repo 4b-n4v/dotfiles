@@ -56,6 +56,7 @@ alias lvim="~/.dotfiles/Documents/scripts/learnvim.sh"
 alias reset_tty="~/.dotfiles/Documents/scripts/reset_tty.sh"
 alias bak="~/.dotfiles/Documents/scripts/create_backup.sh"
 alias vim="nvim"
+alias bt="bluetuith"
 
 # -EDIT CONFIGS-
 alias zshconfig="nvim ~/.zshrc"

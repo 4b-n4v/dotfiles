@@ -1,0 +1,10 @@
+# .clang-format
+
+IndentWidth: 8
+TabWidth: 8
+UseTab: Always
+BreakBeforeBraces: Allman
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+ColumnLimit: 0
