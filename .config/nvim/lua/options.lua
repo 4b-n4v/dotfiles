@@ -4,6 +4,8 @@
 --  For more options, you can see `:help option-list`
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+-- vim.opt.expandtab = true
+
 -- Make line numbers default
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
@@ -58,9 +60,18 @@ vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
+
 -- set theme
 vim.g.gruvbox_material_foreground = "material"
 vim.g.gruvbox_material_background = "medium"
+
 -- set conceal level
 vim.opt.conceallevel = 3
+
+-- Virtual Edit: treat every line as a cell
+vim.opt.virtualedit = "block"
+
+-- Termgui colors
+vim.opt.termguicolors = true
+
 -- vim: ts=2 sts=2 sw=2 et
