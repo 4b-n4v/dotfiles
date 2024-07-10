@@ -24,6 +24,7 @@ return {
 							notes = "~/Documents/notes/",
 							jlox = "~/Documents/notes/jlox/",
 							journal = "~/Documents/notes/journal",
+							learn = "~/Projects/learn/notes",
 						},
 						index = "index.norg",
 						default_workspace = "notes",
