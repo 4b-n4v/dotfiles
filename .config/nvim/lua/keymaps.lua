@@ -35,7 +35,10 @@ vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "Move focus to the lower win
 vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
 -- Paste commands
-vim.keymap.set("n", "<leader>p", '"0p', { desc = "[P]aste Last Yanked" })
+-- vim.keymap.set("n", "<leader>p", '"0p', { desc = "[P]aste Last Yanked" })
+-- require("which-key").add({
+-- 	{ "<leader>p", '"_dP' },
+-- })
 
 --  See `:help lua-guide-autocommands`
 
