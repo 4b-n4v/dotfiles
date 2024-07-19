@@ -1,8 +1,8 @@
 --NOTE: Plugins can also be configured to run Lua code when they are loaded.
---
--- This is often very useful to both group configuration, as well as handle
+--Plugins
 -- lazy loading plugins that don't need to be loaded immediately at startup.
 --
+-- This is often very useful to both group configuration, as well as handle
 -- For example, in the following configuration, we use:
 --  event = 'VimEnter'
 --
@@ -14,27 +14,40 @@
 --  config = function() ... end
 
 return {
-  { -- Useful plugin to show you pending keybinds.
-    'folke/which-key.nvim',
-    event = 'VimEnter', -- Sets the loading event to 'VimEnter'
-    config = function() -- This is the function that runs, AFTER loading
-      require('which-key').setup()
+	{ -- Useful plugin to show you pending keybinds.
+		"folke/which-key.nvim",
+		event = "VimEnter", -- Sets the loading event to 'VimEnter'
+		-- opts = {
+		-- 	preset = "modern",
+		-- },
+		config = function() -- This is the function that runs, AFTER loading
+			require("which-key").setup({
+				preset = "classic",
+			})
 
-      -- Document existing key chains
-      require('which-key').register {
-        ['<leader>c'] = { name = '[C]ode', _ = 'which_key_ignore' },
-        ['<leader>d'] = { name = '[D]ocument', _ = 'which_key_ignore' },
-        ['<leader>r'] = { name = '[R]ename', _ = 'which_key_ignore' },
-        ['<leader>s'] = { name = '[S]earch', _ = 'which_key_ignore' },
-        ['<leader>w'] = { name = '[W]orkspace', _ = 'which_key_ignore' },
-        ['<leader>t'] = { name = '[T]oggle', _ = 'which_key_ignore' },
-        ['<leader>h'] = { name = 'Git [H]unk', _ = 'which_key_ignore' },
-      }
-      -- visual mode
-      require('which-key').register({
-        ['<leader>h'] = { 'Git [H]unk' },
-      }, { mode = 'v' })
-    end,
-  },
+			-- Document existing key chains
+			require("which-key").add({
+				{ "<leader>c", group = "[C]ode", icon = "" },
+				{ "<leader>c_", hidden = false },
+				{ "<leader>d", group = "[D]ocument", icon = "󰈙" },
+				{ "<leader>d_", hidden = true },
+				{ "<leader>h", group = "Git [H]unk" },
+				{ "<leader>h_", hidden = true },
+				{ "<leader>r", group = "[R]ename", icon = "󰑕" },
+				{ "<leader>r_", hidden = true },
+				{ "<leader>s", group = "[S]earch", icon = "" },
+				{ "<leader>s_", hidden = true },
+				{ "<leader>t", group = "[T]oggle", icon = "󰔡" },
+				{ "<leader>t_", hidden = true },
+				{ "<leader>w", group = "[W]orkspace", icon = "󰥟" },
+				{ "<leader>w_", hidden = true },
+				{ "<leader>h", desc = "Git [H]unk", mode = "v" },
+				{ "<leader>n", group = "[N]eorg", icon = "󱓧" },
+				{ "<leader>i", group = "Trees[I]tter", icon = "󰔱" },
+				-- Custom Keymaps
+				{ "<leader>p", '"_dP', mode = "n", desc = "[P]aste last yanked", icon = "" },
+			})
+		end,
+	},
 }
 -- vim: ts=2 sts=2 sw=2 et

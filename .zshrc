@@ -44,12 +44,14 @@ fi
 alias p="sudo pacman"
 alias c="clear"
 alias z="zellij"
+alias s="sudo"
 alias lg="lazygit"
 alias zc="zellij -l compact"
 alias rm="rm -i"
 alias mv="mv -i"
-alias ls="exa --group-directories-first"
+alias ls="exa --group-directories-first -l"
 alias lst="exa -a -l -h -U -T --ignore-glob=\"git\""
+alias wdunlock="sudo sg_raw -s 40 -i ~/.wdpassport-utils/password.bin /dev/sda c1 e1 00 00 00 00 00 00 28 00"
 
 # -SHELL SCRIPT ALIASES-
 alias lvim="~/.dotfiles/Documents/scripts/learnvim.sh"

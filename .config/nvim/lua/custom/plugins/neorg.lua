@@ -23,7 +23,7 @@ return {
 						workspaces = {
 							notes = "~/Documents/notes/",
 							jlox = "~/Documents/notes/jlox/",
-							journal = "~/Documents/notes/journal",
+							journal = "~/Documents/journal/",
 							learn = "~/Projects/learn/notes",
 						},
 						index = "index.norg",
