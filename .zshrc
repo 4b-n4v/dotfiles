@@ -72,6 +72,8 @@ alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
 alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
 alias zellconfig="nvim ~/.config/zellij/config.kdl"
 alias neorgconfig="nvim ~/.config/nvim/lua/custom/plugins/neorg.lua"
+alias hyprconfig="nvim ~/.config/hypr/"
+alias wbarconfig="nvim ~/.config/waybar/"
 
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
