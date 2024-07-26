@@ -12,7 +12,8 @@
   "modules-left": ["hyprland/workspaces", "custom/spt"],
   "modules-center": ["custom/weather", "clock"],
   "modules-right": [
-    "hyprland/language",
+    // "hyprland/language",
+    "disk",
     "memory",
     "pulseaudio",
     "bluetooth",
@@ -99,7 +100,7 @@
     "format": "{icon}     {volume}%",
     "rotate": 0,
     "format-muted": "<span size='large' rise='-1000'>󰖁 </span>",
-    "on-click": "pavucontrol -t 3",
+    "on-click": "~/.config/waybar/modules/audio_changer.py",
     "on-click-middle": "$HOME/.config/scripts/volumecontrol.sh -o m",
     "on-scroll-up": "$HOME/.config/scripts/volumecontrol.sh -o i",
     "on-scroll-down": "$HOME/.config/scripts/volumecontrol.sh -o d",
@@ -224,5 +225,13 @@
     "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
     "interval": 15,
     "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' ",
+  },
+  "disk": {
+	"interval": 30,
+	"format-alt": "<span></span>  {specific_free:0.2f} GiB Free",
+    "format": "<span>/</span>  {percentage_used}%",
+	"unit": "GB",
+    "tooltip-format": "  {specific_free:0.2f}",
+	// 0.25 GB out of 2000.00 GB available. Alternatively 241.3MiB out of 1.9TiB available.
   },
 }

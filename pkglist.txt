@@ -40,6 +40,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-themes-extra
+grim
 grub
 gtk-engine-murrine
 gtk-engines
@@ -101,6 +102,7 @@ sassc
 sddm
 sg3_utils
 skim
+slurp
 spotify-tui
 spotifyd
 steam
@@ -122,9 +124,12 @@ vim
 visual-studio-code-bin
 waybar
 wget
+wofi
 wttrbar
 xclip
 xdg-desktop-portal-gnome
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
 xdotool
 xf86-video-vesa
 xinput-gui
