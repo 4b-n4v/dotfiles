@@ -22,7 +22,7 @@
   ],
 
   "custom/weather": {
-    "format": "{}°C",
+    "format": "{}°C ",
     "tooltip": false,
     "interval": 3600,
     "exec": "wttrbar --location Mission --custom-indicator '{ICON} {temp_C}'",

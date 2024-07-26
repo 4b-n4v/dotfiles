@@ -12,6 +12,7 @@ bluez-utils
 btop
 cbonsai
 clang
+clipse
 cmake
 cmatrix
 cowsay
@@ -59,6 +60,7 @@ kate
 kdeconnect
 kdenlive
 kitty
+kvantum
 lazygit
 libreoffice-fresh
 linux
@@ -84,6 +86,8 @@ ntfs-3g
 nvidia
 nvidia-lts
 nvidia-settings
+nwg-look
+obs-studio
 okular
 os-prober
 pacman-contrib
@@ -94,6 +98,8 @@ polybar
 python-pip
 python-pywal
 qt5-wayland
+qt5ct
+qt6ct
 reflector
 ripgrep
 rofi-wayland
@@ -124,12 +130,12 @@ vim
 visual-studio-code-bin
 waybar
 wget
+wl-clipboard
 wofi
 wttrbar
 xclip
 xdg-desktop-portal-gnome
 xdg-desktop-portal-hyprland
-xdg-desktop-portal-wlr
 xdotool
 xf86-video-vesa
 xinput-gui
