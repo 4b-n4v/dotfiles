@@ -116,6 +116,7 @@ stow
 stremio
 sudo
 sway
+swaync
 ticktick
 timeshift
 tree
@@ -124,6 +125,7 @@ ttf-dejavu
 ttf-fira-sans
 ttf-firacode-nerd
 ttf-font-awesome
+udiskie
 ufw
 unarchiver
 vim
