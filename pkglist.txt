@@ -95,6 +95,7 @@ picom
 plasma-meta
 plasma-workspace
 polybar
+pulsemixer
 python-pip
 python-pywal
 qt5-wayland
