@@ -61,19 +61,19 @@ alias vim="nvim"
 alias bt="bluetuith"
 
 # -EDIT CONFIGS-
-alias zshconfig="nvim ~/.zshrc"
-alias i3config="nvim ~/.config/i3/config"
-alias alacconfig="nvim ~/.config/alacritty/alacritty.toml"
-alias barconfig="nvim ~/.config/polybar/config.ini"
-alias roficonfig="nvim ~/.config/rofi/config.rasi"
-alias keyconfig="sudo nvim /etc/keyd/default.conf"
-alias picconfig="nvim ~/.config/picom/picom.conf"
-alias kittyconfig="nvim ~/.config/kitty/kitty.conf"
-alias yaziconfig="nvim ~/.config/yazi/yazi.toml"
-alias zellconfig="nvim ~/.config/zellij/config.kdl"
-alias neorgconfig="nvim ~/.config/nvim/lua/custom/plugins/neorg.lua"
+alias zshconf="nvim ~/.zshrc"
+alias i3conf="nvim ~/.config/i3/config"
+alias alacconf="nvim ~/.config/alacritty/alacritty.toml"
+alias barconf="nvim ~/.config/polybar/config.ini"
+alias roficonf="nvim ~/.config/rofi/config.rasi"
+alias keyconf="sudo nvim /etc/keyd/default.conf"
+alias picconf="nvim ~/.config/picom/picom.conf"
+alias kittyconf="nvim ~/.config/kitty/kitty.conf"
+alias yaziconf="nvim ~/.config/yazi/yazi.toml"
+alias zellconf="nvim ~/.config/zellij/config.kdl"
+alias neorgconf="nvim ~/.config/nvim/lua/custom/plugins/neorg.lua"
 alias hyprconf="nvim ~/.config/hypr/"
-alias wbarconfig="nvim ~/.config/waybar/"
+alias wbarconf="nvim ~/.config/waybar/"
 
 # -CD CONFIGS-
 alias zshdir="cd ~/.oh-my-zsh"
@@ -85,6 +85,8 @@ alias rofidir="cd ~/.config/picom"
 alias yazidir="cd ~/.config/yazi"
 alias autodir="cd ~/.config/autorandr"
 alias zelldir="cd ~/.config/zellij"
+alias hyprdir="nvim ~/.config/hypr/"
+alias wbardir="nvim ~/.config/waybar/"
 
 # For changing displays and speaker outputs
 alias speaker="pactl set-default-sink"
@@ -107,4 +109,4 @@ function yy() {
 export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
 
 # Setting zellij to autostart
-eval "$(zellij -l compact setup --generate-auto-start zsh)"
+# eval "$(zellij -l compact setup --generate-auto-start zsh)"

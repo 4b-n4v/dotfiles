@@ -29,8 +29,8 @@ tooltip label {
 /* window colors */
 
 window#waybar {
-  background: alpha(@bg, 0);
-  border-radius: 20px;
+  background: alpha(@bg2, 0.3);
+  border-radius: 19px;
   margin-top: 6px;
 }
 
@@ -331,6 +331,21 @@ window#waybar.hidden {
 }
 
 #disk {
+  margin: 6px 6px 6px 6px;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 0px;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 18px;
+  /* font-size: 14px; */
+  font-weight: bold;
+  transition: none;
+  color: @bg;
+  background: @fg;
+}
+#backlight {
   margin: 6px 6px 6px 6px;
   margin-top: 6px;
   margin-left: 8px;

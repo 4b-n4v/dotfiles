@@ -8,7 +8,9 @@ base-devel
 blueman
 bluetuith
 bluez
+bluez-obex
 bluez-utils
+brightnessctl
 btop
 cbonsai
 clang
@@ -47,7 +49,9 @@ gtk-engine-murrine
 gtk-engines
 gwenview
 htop
+hypridle
 hyprland
+hyprlock
 hyprpaper
 i3-wm
 i3blocks
@@ -118,6 +122,7 @@ stremio
 sudo
 sway
 swaync
+swww
 ticktick
 timeshift
 tree
