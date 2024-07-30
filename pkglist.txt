@@ -107,8 +107,8 @@ pulsemixer
 python-pip
 python-pywal
 qt5-wayland
-qt5ct
-qt6ct
+qt6ct-kde
+qt6ct-kde-debug
 reflector
 ripgrep
 rofi-wayland
@@ -127,6 +127,7 @@ sudo
 sway
 swaync
 swww
+thunar
 ticktick
 timeshift
 tree
@@ -145,7 +146,6 @@ waybar
 wget
 wl-clipboard
 wlogout
-wofi
 wttrbar
 xclip
 xdg-desktop-portal-gnome
