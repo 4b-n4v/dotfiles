@@ -360,3 +360,18 @@ window#waybar.hidden {
   color: @bg;
   background: @fg;
 }
+#window {
+  margin: 6px 6px 6px 6px;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 0px;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 18px;
+  /* font-size: 14px; */
+  font-weight: bold;
+  transition: none;
+  color: @bg;
+  background: @fg;
+}

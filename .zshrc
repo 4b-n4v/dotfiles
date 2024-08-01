@@ -85,8 +85,10 @@ alias rofidir="cd ~/.config/picom"
 alias yazidir="cd ~/.config/yazi"
 alias autodir="cd ~/.config/autorandr"
 alias zelldir="cd ~/.config/zellij"
-alias hyprdir="nvim ~/.config/hypr/"
-alias wbardir="nvim ~/.config/waybar/"
+alias hyprdir="cd ~/.config/hypr/"
+alias wbardir="cd ~/.config/waybar/"
+alias minecraftdir="cd ~/.local/share/PrismLauncher/instances/1.21/.minecraft/"
+alias spicedir="cd ~/.config/spicetify/"
 
 # For changing displays and speaker outputs
 alias speaker="pactl set-default-sink"
