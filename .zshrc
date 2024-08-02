@@ -26,6 +26,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+## Meson Environment Variables
+export CC='clang'
+export CXX='clang++'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Language
