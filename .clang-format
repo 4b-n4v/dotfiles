@@ -2,7 +2,8 @@
 
 IndentWidth: 8
 TabWidth: 8
-UseTab: Always
+UseTab: Never
+AccessModifierOffset: -8
 BreakBeforeBraces: Allman
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false

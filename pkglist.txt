@@ -26,6 +26,7 @@ dosfstools
 dwarffortress
 easyeffects
 efibootmgr
+extra-cmake-modules
 eza
 fd
 feh
@@ -34,7 +35,10 @@ ffmpegthumbs
 firefox
 flameshot
 flatpak
+ftxui-git
 fzf
+gamemode
+ghc-filesystem
 git
 github-cli
 gnome-browser-connector
@@ -43,6 +47,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-themes-extra
+go
 grim
 grub
 gtk-engine-murrine
@@ -62,8 +67,8 @@ i3lock
 i3status
 intel-ucode
 jdk-openjdk
+jdk17-openjdk
 jq
-jre17-openjdk
 jre21-openjdk
 jre8-openjdk
 kate
@@ -84,6 +89,7 @@ microsoft-edge-stable-bin
 minecraft-launcher
 mtools
 nano
+ncdu
 ncspot
 neofetch
 neovim
@@ -117,6 +123,7 @@ ripgrep
 rofi-wayland
 rust
 sassc
+scdoc
 sddm
 selectdefaultapplication-git
 sg3_utils
@@ -145,6 +152,7 @@ ttf-fira-sans
 ttf-firacode-nerd
 ttf-font-awesome
 ttf-jetbrains-mono
+tumbler
 udiskie
 ufw
 unarchiver

@@ -4,7 +4,7 @@
 --  For more options, you can see `:help option-list`
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
--- vim.opt.expandtab = true
+vim.opt.expandtab = true
 
 -- Make line numbers default
 vim.opt.number = true
@@ -35,6 +35,7 @@ vim.opt.smartcase = true
 -- Keep signcolumn on by default
 vim.opt.signcolumn = "yes"
 
+vim.g.editorconfig = false
 -- Decrease update time
 vim.opt.updatetime = 250
 
