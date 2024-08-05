@@ -26,6 +26,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export TERMINAL=kitty
 ## Meson Environment Variables
 export CC='clang'
 export CXX='clang++'

@@ -26,7 +26,7 @@ dosfstools
 dwarffortress
 easyeffects
 efibootmgr
-extra-cmake-modules
+emscripten
 eza
 fd
 feh
@@ -37,8 +37,6 @@ flameshot
 flatpak
 ftxui-git
 fzf
-gamemode
-ghc-filesystem
 git
 github-cli
 gnome-browser-connector
@@ -67,7 +65,6 @@ i3lock
 i3status
 intel-ucode
 jdk-openjdk
-jdk17-openjdk
 jq
 jre21-openjdk
 jre8-openjdk
@@ -85,8 +82,8 @@ linux-lts-headers
 lua51
 maim
 meson
-microsoft-edge-stable-bin
 minecraft-launcher
+mkinitcpio-firmware
 mtools
 nano
 ncdu
@@ -123,7 +120,6 @@ ripgrep
 rofi-wayland
 rust
 sassc
-scdoc
 sddm
 selectdefaultapplication-git
 sg3_utils
@@ -143,6 +139,7 @@ sway
 swaync
 swww
 thunar
+thunderbird
 ticktick
 timeshift
 tree
