@@ -4,7 +4,7 @@ fpath=(~/.config/oh-my-zsh/custom/functions $fpath)
 # Put "random" for a random theme everytime zsh boots
 ZSH_THEME="ys"
 autoload _zellij
-
+set -o vi
 # For case sensitive completion
 # CASE_SENSITIVE="true"
 

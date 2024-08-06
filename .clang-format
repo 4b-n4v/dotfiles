@@ -1,9 +1,9 @@
 # .clang-format
 
-IndentWidth: 8
-TabWidth: 8
+IndentWidth: 4
+TabWidth: 4
 UseTab: Never
-AccessModifierOffset: -8
+AccessModifierOffset: -4
 BreakBeforeBraces: Allman
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false

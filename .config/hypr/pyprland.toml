@@ -15,3 +15,32 @@ command = "[term_classed] main-dropterm"
 class = "main-dropterm"
 size = "75% 60%"
 max_size = "1920px 100%"
+
+[scratchpads.music]
+animation = "fromLeft"
+command = "kitty --class ncspot -e ncspot"
+class = "ncspot"
+size = "35% 80%"
+max_size = "1920px 100%"
+
+[scratchpads.pulsemixer]
+animation = "fromTop"
+command = "kitty --class pulsemixer -e pulsemixer"
+class = "pulsemixer"
+size = "40% 30%"
+max_size = "1920px 100%"
+position = "30% 8%"
+
+[scratchpads.bluetuith]
+animation = "fromBottom"
+command = "kitty --class bluetuith -e bluetuith"
+class = "bluetuith"
+size = "40% 80%"
+max_size = "1920px 100%"
+position = "30% 18%"
+# [scratchpads.rofi]
+# animation = "fromLeft"
+# command = "rofi -show combi"
+# class = "Rofi"
+# size = "15% 60%"
+# max_size = "1920px 100%"

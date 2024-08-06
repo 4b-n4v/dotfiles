@@ -2,6 +2,7 @@ alacritty
 alsa-utils
 anki-bin
 arandr
+arch-wiki-docs
 autorandr
 base
 base-devel
@@ -11,8 +12,10 @@ bluez
 bluez-obex
 bluez-utils
 brightnessctl
+bt-dualboot
 btop
 cbonsai
+chntpw
 clang
 clipse
 cmake
@@ -35,7 +38,6 @@ ffmpegthumbs
 firefox
 flameshot
 flatpak
-ftxui-git
 fzf
 git
 github-cli
