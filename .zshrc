@@ -30,6 +30,7 @@ export TERMINAL=kitty
 ## Meson Environment Variables
 export CC='clang'
 export CXX='clang++'
+export PATH="$HOME/.local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Language

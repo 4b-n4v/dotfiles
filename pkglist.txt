@@ -36,6 +36,8 @@ feh
 ffmpegthumbnailer
 ffmpegthumbs
 firefox
+firefox-tridactyl
+firefox-tridactyl-native
 flameshot
 flatpak
 fzf
@@ -50,6 +52,7 @@ gnome-themes-extra
 go
 grim
 grub
+gstreamer-vaapi
 gtk-engine-murrine
 gtk-engines
 gtkmm
@@ -151,10 +154,12 @@ ttf-fira-sans
 ttf-firacode-nerd
 ttf-font-awesome
 ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
 tumbler
 udiskie
 ufw
 unarchiver
+uxplay
 vim
 visual-studio-code-bin
 waybar

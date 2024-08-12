@@ -38,6 +38,13 @@ class = "bluetuith"
 size = "40% 80%"
 max_size = "1920px 100%"
 position = "30% 18%"
+
+[scratchpads.proc]
+animation = "fromBottom"
+command = "kitty --class proc -e btop -p 2"
+class = "proc"
+size = "75% 60%"
+max_size = "1920px 100%"
 # [scratchpads.rofi]
 # animation = "fromLeft"
 # command = "rofi -show combi"
