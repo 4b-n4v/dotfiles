@@ -68,6 +68,7 @@ i3-wm
 i3blocks
 i3lock
 i3status
+intel-media-driver
 intel-ucode
 jdk-openjdk
 jq

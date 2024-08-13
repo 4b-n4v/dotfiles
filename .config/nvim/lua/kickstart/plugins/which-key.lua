@@ -41,8 +41,7 @@ return {
 				{ "<leader>t_", hidden = true },
 				{ "<leader>w", group = "[W]orkspace", icon = "󰥟" },
 				{ "<leader>w_", hidden = true },
-				{ "<leader>h", desc = "Git [H]unk", mode = "v" },
-				{ "<leader>n", group = "[N]eorg", icon = "󱓧" },
+				{ "<leader>h", desc = "Git [H]unk", mode = { "v", "n" } },
 				{ "<leader>i", group = "Trees[I]tter", icon = "󰔱" },
 				-- Custom Keymaps
 				{ "<leader>p", '"_dP', mode = "n", desc = "[P]aste last yanked", icon = "" },

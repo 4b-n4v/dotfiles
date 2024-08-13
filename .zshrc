@@ -57,6 +57,7 @@ alias mv="mv -i"
 alias ls="exa --group-directories-first -l"
 alias lst="exa -a -l -h -U -T --ignore-glob=\"git\""
 alias wdunlock="sudo sg_raw -s 40 -i ~/.wdpassport-utils/password.bin /dev/sda c1 e1 00 00 00 00 00 00 28 00"
+alias neorg="NVIM_APPNAME=\"nvim-neorg\" nvim"
 
 # -SHELL SCRIPT ALIASES-
 alias lvim="~/.dotfiles/Documents/scripts/learnvim.sh"
@@ -76,7 +77,7 @@ alias picconf="nvim ~/.config/picom/picom.conf"
 alias kittyconf="nvim ~/.config/kitty/kitty.conf"
 alias yaziconf="nvim ~/.config/yazi/yazi.toml"
 alias zellconf="nvim ~/.config/zellij/config.kdl"
-alias neorgconf="nvim ~/.config/nvim/lua/custom/plugins/neorg.lua"
+alias neorgconf="nvim ~/.config/nvim-neorg/lua/custom/plugins/neorg.lua"
 alias hyprconf="nvim ~/.config/hypr/"
 alias wbarconf="nvim ~/.config/waybar/"
 
@@ -93,6 +94,7 @@ alias zelldir="cd ~/.config/zellij"
 alias hyprdir="cd ~/.config/hypr/"
 alias wbardir="cd ~/.config/waybar/"
 alias minecraftdir="cd ~/.local/share/PrismLauncher/instances/1.21/.minecraft/"
+alias neorgdir="cd ~/.config/nvim-neorg/"
 alias spicedir="cd ~/.config/spicetify/"
 
 # For changing displays and speaker outputs
