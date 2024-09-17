@@ -186,7 +186,7 @@ return {
 						return vim.loop.cwd()
 					end,
 				},
-				-- gopls = {},
+				gopls = {},
 				pyright = {},
 				-- rust_analyzer = {},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -196,7 +196,13 @@ return {
 				--    https://github.com/pmizio/typescript-tools.nvim
 				--
 				-- But for many setups, the LSP (`tsserver`) will work just fine
-				-- tsserver = {},
+				tsserver = {
+					init_options = {
+						preferences = {
+							disableSuggestions = true,
+						},
+					},
+				},
 				--
 
 				jdtls = {},
@@ -235,6 +241,9 @@ return {
 			require("mason-lspconfig").setup({
 				handlers = {
 					function(server_name)
+						if server_name == "tsserver" then
+							server_name = "ts_ls"
+						end
 						local server = servers[server_name] or {}
 						-- This handles overriding only values explicitly passed
 						-- by the server configuration above. Useful when disabling

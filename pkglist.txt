@@ -3,6 +3,7 @@ alsa-utils
 anki-bin
 arandr
 arch-wiki-docs
+arduino-ide
 autorandr
 base
 base-devel
@@ -11,6 +12,8 @@ bluetuith
 bluez
 bluez-obex
 bluez-utils
+bootstrap
+borg
 brightnessctl
 bt-dualboot
 btop
@@ -20,9 +23,12 @@ clang
 clipse
 cmake
 cmatrix
+codelldb-bin
 cowsay
 cryfs
+dart
 discord
+dissent
 dmenu
 dolphin
 dosfstools
@@ -30,6 +36,10 @@ dwarffortress
 easyeffects
 efibootmgr
 emscripten
+encfs
+eslint
+exfatprogs
+expac
 eza
 fd
 feh
@@ -41,6 +51,7 @@ firefox-tridactyl-native
 flameshot
 flatpak
 fzf
+gamemode
 git
 github-cli
 gnome-browser-connector
@@ -50,6 +61,7 @@ gnome-settings-daemon
 gnome-shell
 gnome-themes-extra
 go
+gparted
 grim
 grub
 gstreamer-vaapi
@@ -68,7 +80,6 @@ i3-wm
 i3blocks
 i3lock
 i3status
-intel-media-driver
 intel-ucode
 jdk-openjdk
 jq
@@ -80,7 +91,10 @@ kdenlive
 kitty
 kvantum
 lazygit
+lib32-nvidia-utils
+lib32-opencl-nvidia
 libreoffice-fresh
+libstrangle
 linux
 linux-firmware
 linux-lts
@@ -108,16 +122,19 @@ nvidia-lts
 nvidia-settings
 nwg-look
 obs-studio
+obsidian
 okular
+opencl-nvidia
 os-prober
 pacman-contrib
 picom
+pika-backup
 plasma-meta
 plasma-workspace
 polybar
-prismlauncher
 pulsemixer
 python-pip
+python-pipx
 python-pywal
 qt5-wayland
 qt6ct-kde
@@ -136,7 +153,6 @@ spicetify-themes-git
 spotify-launcher
 spotify-tui
 spotifyd
-steam
 stow
 stremio
 sudo
@@ -157,6 +173,7 @@ ttf-font-awesome
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 tumbler
+typescript
 udiskie
 ufw
 unarchiver
@@ -167,6 +184,7 @@ waybar
 wget
 wl-clipboard
 wlogout
+wpa_supplicant_gui
 wttrbar
 xclip
 xdg-desktop-portal-gnome

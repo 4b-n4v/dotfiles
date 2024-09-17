@@ -29,7 +29,7 @@ tooltip label {
 /* window colors */
 
 window#waybar {
-  background: alpha(@bg2, 0.3);
+  background: alpha(@bg2, 0.09);
   border-radius: 19px;
   margin-top: 6px;
 }

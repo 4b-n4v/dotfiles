@@ -27,7 +27,7 @@
 	purple: #d3869b;
 
     reddark: #c14a4a;
-    yellowdark: #b47109;
+    yellowdark: #d8a657;
 
     foreground:  @gruv9;
     background-color:  transparent;

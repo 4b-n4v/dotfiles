@@ -31,7 +31,9 @@ export TERMINAL=kitty
 export CC='clang'
 export CXX='clang++'
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.dart/flutter/flutter/bin/:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+# ~/.dart/flutter
 
 # Language
 export LANG=en_US.UTF-8
@@ -44,12 +46,15 @@ else
 fi
 
 # ALIASES 
+export wd=/run/media/n4v/Angelo_s\ Passport/
 
 # -COMMAND ALIASES- 
 alias p="sudo pacman"
 alias c="clear"
 alias z="zellij"
 alias s="sudo"
+alias v="nvim"
+alias n="NVIM_APPNAME=\"nvim-neorg\" nvim"
 alias lg="lazygit"
 alias zc="zellij -l compact"
 alias rm="rm -i"
@@ -58,6 +63,7 @@ alias ls="exa --group-directories-first -l"
 alias lst="exa -a -l -h -U -T --ignore-glob=\"git\""
 alias wdunlock="sudo sg_raw -s 40 -i ~/.wdpassport-utils/password.bin /dev/sda c1 e1 00 00 00 00 00 00 28 00"
 alias neorg="NVIM_APPNAME=\"nvim-neorg\" nvim"
+alias pacinstalldates="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n 10000"
 
 # -SHELL SCRIPT ALIASES-
 alias lvim="~/.dotfiles/Documents/scripts/learnvim.sh"
@@ -115,7 +121,8 @@ function yy() {
 # OPTIONAL INSTALLS 
 
 # Dart 2.12.0
-export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
-
+# export PATH="/opt/dart-sdk-2-12-0/bin:$PATH"
+export PATH="/opt/android-studio/bin:$PATH"
+export ANDROID_SDK_ROOT="/home/n4v/.android/android-studio/"
 # Setting zellij to autostart
 # eval "$(zellij -l compact setup --generate-auto-start zsh)"
