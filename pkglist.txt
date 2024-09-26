@@ -2,11 +2,11 @@ alacritty
 alsa-utils
 anki-bin
 arandr
-arch-wiki-docs
 arduino-ide
 autorandr
 base
 base-devel
+bitwarden
 blueman
 bluetuith
 bluez
@@ -28,7 +28,6 @@ cowsay
 cryfs
 dart
 discord
-dissent
 dmenu
 dolphin
 dosfstools
@@ -125,6 +124,7 @@ obs-studio
 obsidian
 okular
 opencl-nvidia
+openresolv
 os-prober
 pacman-contrib
 picom
@@ -132,6 +132,7 @@ pika-backup
 plasma-meta
 plasma-workspace
 polybar
+prettier
 pulsemixer
 python-pip
 python-pipx
@@ -153,6 +154,7 @@ spicetify-themes-git
 spotify-launcher
 spotify-tui
 spotifyd
+sqlitebrowser
 stow
 stremio
 sudo
@@ -165,6 +167,7 @@ thunderbird
 ticktick
 timeshift
 tree
+tree-sitter-cli
 ttf-atkinson-hyperlegible
 ttf-dejavu
 ttf-fira-sans
@@ -182,6 +185,7 @@ vim
 visual-studio-code-bin
 waybar
 wget
+wireguard-tools
 wl-clipboard
 wlogout
 wpa_supplicant_gui
@@ -240,7 +244,6 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
-yay-debug
 yazi
 zathura
 zathura-pdf-mupdf

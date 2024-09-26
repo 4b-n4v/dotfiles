@@ -123,14 +123,15 @@ keybinds clear-defaults=true {
     }
     tmux {
         bind "[" { SwitchToMode "Scroll"; }
-        bind "Alt b" { Write 2; SwitchToMode "Normal"; }
-        bind "\"" { NewPane "Down"; SwitchToMode "Normal"; }
-        bind "%" { NewPane "Right"; SwitchToMode "Normal"; }
+        bind "Ctrl Space" { Write 2; SwitchToMode "Normal"; }
+        bind "'" { NewPane "Down"; SwitchToMode "Normal"; }
+        bind ";" { NewPane "Right"; SwitchToMode "Normal"; }
         bind "z" { ToggleFocusFullscreen; SwitchToMode "Normal"; }
         bind "c" { NewTab; SwitchToMode "Normal"; }
         bind "," { SwitchToMode "RenameTab"; }
         bind "p" { GoToPreviousTab; SwitchToMode "Normal"; }
         bind "n" { GoToNextTab; SwitchToMode "Normal"; }
+        bind "w" { ToggleFloatingPanes; SwitchToMode "Normal"; }
         bind "Left" { MoveFocus "Left"; SwitchToMode "Normal"; }
         bind "Right" { MoveFocus "Right"; SwitchToMode "Normal"; }
         bind "Down" { MoveFocus "Down"; SwitchToMode "Normal"; }
@@ -195,7 +196,7 @@ keybinds clear-defaults=true {
         bind "Alt g" { SwitchToMode "Move"; }
     }
     shared_except "tmux" "locked" {
-        bind "Alt b" { SwitchToMode "Tmux"; }
+        bind "Ctrl Space" { SwitchToMode "Tmux"; }
     }
 }
 

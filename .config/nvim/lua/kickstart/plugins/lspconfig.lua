@@ -196,12 +196,20 @@ return {
 				--    https://github.com/pmizio/typescript-tools.nvim
 				--
 				-- But for many setups, the LSP (`tsserver`) will work just fine
-				tsserver = {
+				ts_ls = {
 					init_options = {
 						preferences = {
 							disableSuggestions = true,
 						},
 					},
+					filetypes = {
+						"js",
+						"ls",
+						-- "ejs",
+					},
+				},
+				eslint = {
+					-- filetypes = { "ejs" },
 				},
 				--
 
@@ -220,8 +228,43 @@ return {
 						},
 					},
 				},
-			}
+				html = {
+					filetypes = {
+						"html",
+						"ejs",
+					},
+					settings = {
+						html = {
+							format = {
+								templating = true,
+								wrapLineLength = 120,
+							},
+						},
+					},
 
+					-- on_attach = function(client, bufnr)
+					-- 	if vim.bo[bufnr].filetype == "ejs" then
+					-- 		client.resolved_capabilities.document_formatting = false -- Disable formatting for EJS
+					-- 	end
+					-- end,
+				},
+				emmet_language_server = {
+					filetypes = {
+						"css",
+						"eruby",
+						"html",
+						"htmldjango",
+						"javascriptreact",
+						"less",
+						"pug",
+						"sass",
+						"scss",
+						"typescriptreact",
+						"ejs",
+					},
+				},
+			}
+			vim.filetype.add({ extension = { ejs = "ejs" } })
 			-- Ensure the servers and tools above are installed
 			--  To check the current status of installed tools and/or manually install
 			--  other tools, you can run
@@ -241,9 +284,9 @@ return {
 			require("mason-lspconfig").setup({
 				handlers = {
 					function(server_name)
-						if server_name == "tsserver" then
-							server_name = "ts_ls"
-						end
+						-- if server_name == "tsserver" then
+						-- 	server_name = "ts_ls"
+						-- end
 						local server = servers[server_name] or {}
 						-- This handles overriding only values explicitly passed
 						-- by the server configuration above. Useful when disabling

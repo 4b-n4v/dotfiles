@@ -4,7 +4,7 @@ return {
 		build = ":TSUpdate",
 		opts = {
 			ignore_install = { "dart" },
-			ensure_nstalled = { "bash", "c", "html", "lua", "luadoc", "markdown", "vim", "vimdoc", "java" },
+			ensure_installed = { "bash", "c", "html", "lua", "luadoc", "markdown", "vim", "vimdoc", "java" },
 			-- Autoinstall languages that are not installed
 			auto_install = true,
 			highlight = {
@@ -69,12 +69,12 @@ return {
 		},
 		config = function(_, opts)
 			-- [[ Configure Treesitter ]] See `:help nvim-treesitter`
-
+			vim.treesitter.language.register("html", "ejs")
+			vim.treesitter.language.register("javascript", "ejs")
 			-- Prefer git instead of curl in order to improve connectivity in some environments
 			require("nvim-treesitter.install").prefer_git = true
 			---@diagnostic disable-next-line: missing-fields
 			require("nvim-treesitter.configs").setup(opts)
-
 			-- There are additional nvim-treesitter modules that you can use to interact
 			-- with nvim-treesitter. You should go explore a few and see what interests you:
 			--
