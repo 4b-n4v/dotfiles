@@ -1,9 +1,0 @@
-[manager]
-show_hidden = true
-linemode = "size"
-show_symlink = true
-
-[opener]
-edit = [
-	{ run = 'nvim "$@"', block = true },
-]
