@@ -31,4 +31,9 @@ do
     out_str="$out_str\n"
 done
 
-echo -e $out_str  
+if [[ $1 == "savefile" ]]
+then 
+    echo -e $out_str > /home/n4v/.dotfiles/pkglist.txt
+else
+    echo -e $out_str  
+fi
