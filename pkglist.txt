@@ -1,7 +1,7 @@
-Last Updated: Sun Oct 13 01:53:23 PM CDT 2024
+Last Updated: Tue Oct 15 09:36:42 PM CDT 2024
 
-Total Packages: 1072
-Foreign Packages: 30
+Total Packages: 1115
+Foreign Packages: 29
 
 base
 base-devel
@@ -17,7 +17,6 @@ code
 dolphin
 dosfstools
 efibootmgr
-eslint
 eza
 fd
 feh
@@ -26,7 +25,6 @@ ffmpegthumbs
 firefox
 firefox-tridactyl
 flatpak
-flutter (FOREIGN)
 fzf
 git
 github-cli
@@ -84,7 +82,7 @@ pyprland (FOREIGN)
 python-pip
 python-pipx
 qbittorrent
-qt5ct
+qt5-wayland
 qt6ct
 reflector
 ripgrep
@@ -103,13 +101,15 @@ swappy
 swaync
 swww
 sysfsutils
+tetrs (FOREIGN)
+thefuck
 thunar
-tmux
 tree
 ttf-atkinson-hyperlegible
 ttf-dejavu
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
+tui-sudoku (FOREIGN)
 tumbler
 typescript
 ufw

@@ -273,7 +273,10 @@ window#waybar.hidden {
   /* color: @bg; */
   background: transparent;
 }
-
+/* #tray menu * { */
+/*   min-height: 10px; */
+/* } */
+/* #tray menu * { min-height: 10px; font-weight: bold; padding: 15px; font-size: 16px; color: #0F0F0F; border-radius: 15px; } */
 /* unused modules */
 
 #audio {
