@@ -21,7 +21,12 @@ export TERMINAL=kitty
 export CC='clang'
 export CXX='clang++'
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.dart/flutter/flutter/bin/:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
+#  Flutter Environment Variables
+export PATH="$HOME/.dev/flutter/bin:$PATH"
+export ANDROID_HOME="$HOME/.dev/android_sdk"
 
 # Language
 export LANG=en_US.UTF-8
@@ -47,6 +52,7 @@ alias s="sudo"
 alias v="nvim"
 alias n="NVIM_APPNAME=\"nvim-neorg\" nvim"
 alias lg="lazygit"
+alias tvim="NVIM_APPNAME=\"nvim-typecraft\" nvim"
 alias zc="zellij -l compact"
 alias rm="rm -i"
 alias mv="mv -i"

@@ -1,6 +1,6 @@
 {
   "layer": "top",
-  // "width": 1920,
+  "width": 1920,
   "margin-top": 1,
   "margin-bottom": 0,
   "gtk-layer-shell": true,

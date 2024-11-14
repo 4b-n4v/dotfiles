@@ -208,7 +208,7 @@ return {
 				-- },
 				--
 
-				jdtls = {},
+				jdtls = { command = "jdtls" },
 				lua_ls = {
 					-- cmd = {...},
 					-- filetypes = { ...},

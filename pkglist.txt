@@ -1,33 +1,46 @@
-Last Updated: Tue Oct 15 09:36:42 PM CDT 2024
+Last Updated: Thu Nov 14 03:19:56 PM CST 2024
 
-Total Packages: 1115
-Foreign Packages: 29
+Total Packages: 1242
+Foreign Packages: 27
 
+android-studio (FOREIGN)
+arc-gtk-theme
 base
 base-devel
+blueman
 bluetuith (FOREIGN)
 bluez
 bluez-utils
 brightnessctl
 btop
+chntpw
 clang
 clipse (FOREIGN)
 cmake
 code
+docker
+docker-compose
 dolphin
 dosfstools
 efibootmgr
+eslint
 eza
 fd
 feh
 ffmpegthumbnailer
 ffmpegthumbs
+file-roller
 firefox
 firefox-tridactyl
 flatpak
+foot
+ftxui (FOREIGN)
 fzf
+gammastep
+gedit
 git
 github-cli
+gnome-disk-utility
 gnome-themes-extra
 gnome-tweaks
 go
@@ -35,26 +48,36 @@ grim
 grub
 gtk-engine-murrine
 gtk4
+gvfs-smb
 gwenview
+hunspell-en_ca
+hyphen-en
 hypridle
 hyprland
 hyprlock
 hyprpicker
+imagemagick
 intel-ucode
 java-runtime-common
+jdk21-openjdk
+jdtls (FOREIGN)
 kdeconnect
 keyd
 kitty
 kvantum
 lazygit
+libmythes
 libreoffice-fresh
 linux
 linux-firmware
 maim
+mako
 meson
 mkinitcpio-firmware (FOREIGN)
 mtools
 nano
+nautilus
+nautilus-open-any-terminal (FOREIGN)
 ncdu
 ncspot
 neofetch
@@ -62,6 +85,7 @@ neovim
 network-manager-applet
 networkmanager
 nodejs
+noto-fonts-cjk
 npm
 ntfs-3g
 nvidia
@@ -69,16 +93,24 @@ nvidia-prime
 nvidia-prime-rtd3pm (FOREIGN)
 nvidia-settings
 nwg-look
-obs-studio
+nwg-wrapper (FOREIGN)
+openjdk21-src
 openresolv
 os-prober
 pacman-contrib
+pamixer
+papirus-icon-theme
+pavucontrol
+phinger-cursors (FOREIGN)
 pika-backup
 plasma-desktop
 plasma-meta
+polkit-gnome
 prettier
 pulsemixer
 pyprland (FOREIGN)
+python-i3ipc
+python-nautilus
 python-pip
 python-pipx
 qbittorrent
@@ -90,6 +122,7 @@ rofi-wayland
 rust
 sassc
 sddm
+simple-scan
 slurp
 spicetify-cli (FOREIGN)
 spotify-launcher
@@ -98,9 +131,16 @@ stow
 stremio (FOREIGN)
 sudo
 swappy
+sway
+swaybg
+swayidle
+swayimg
+swaylock
 swaync
 swww
 sysfsutils
+teams-for-linux-git (FOREIGN)
+terminus-font
 tetrs (FOREIGN)
 thefuck
 thunar
@@ -114,11 +154,19 @@ tumbler
 typescript
 ufw
 unzip
+usbmuxd
+usbutils
+v4l2loopback-dkms
+v4l2loopback-utils
+vesktop (FOREIGN)
 waybar
 wget
+whois
 wireguard-tools
 wireguird (FOREIGN)
 wl-clipboard
+wlr-randr
+wofi
 wttrbar (FOREIGN)
 xdg-desktop-portal-hyprland
 xf86-video-vesa
@@ -161,7 +209,9 @@ xorg-xwininfo
 xorg-xwud
 yay (FOREIGN)
 yay-debug (FOREIGN)
+youtube-dl-gui-git (FOREIGN)
 zathura
+zathura-pdf-mupdf
 zellij
 zoxide
 zsh

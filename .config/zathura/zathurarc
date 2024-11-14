@@ -1,6 +1,6 @@
-set recolor   
-set recolor-lightcolor \#282828
-set recolor-keephue
+# set recolor   
+# set recolor-lightcolor \#282828
+# set recolor-keephue
 set default-bg \#282828
 set statusbar-bg "#28282822"
 
