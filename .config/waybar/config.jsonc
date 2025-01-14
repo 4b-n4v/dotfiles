@@ -19,7 +19,7 @@
    "custom/weather", 
    "clock"],
   "modules-right": [
-    // "hyprland/language",
+    "hyprland/language",
    // "custom/weather", 
     "disk",
     "memory",
@@ -90,8 +90,9 @@
 
   "hyprland/language": {
     "format": "<span font='12'>󰌌</span>  {}",
-    "format-en": "English",
-    "format-ru": "Russian",
+    "format-en": "EN",
+    "format-es": "ES",
+    "format-sv": "SV",
   },
 
   // memory

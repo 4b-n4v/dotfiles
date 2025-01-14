@@ -1,9 +1,10 @@
-Last Updated: Thu Nov 14 03:19:56 PM CST 2024
+Last Updated: Sat Jan 11 06:07:41 PM CST 2025
 
-Total Packages: 1242
-Foreign Packages: 27
+Total Packages: 1272
+Foreign Packages: 29
 
 android-studio (FOREIGN)
+arandr
 arc-gtk-theme
 base
 base-devel
@@ -17,6 +18,7 @@ chntpw
 clang
 clipse (FOREIGN)
 cmake
+cmatrix
 code
 docker
 docker-compose
@@ -44,6 +46,7 @@ gnome-disk-utility
 gnome-themes-extra
 gnome-tweaks
 go
+gparted
 grim
 grub
 gtk-engine-murrine
@@ -62,6 +65,7 @@ java-runtime-common
 jdk21-openjdk
 jdtls (FOREIGN)
 kdeconnect
+kdenlive
 keyd
 kitty
 kvantum
@@ -78,6 +82,7 @@ mtools
 nano
 nautilus
 nautilus-open-any-terminal (FOREIGN)
+nautilus-python
 ncdu
 ncspot
 neofetch
@@ -110,7 +115,6 @@ prettier
 pulsemixer
 pyprland (FOREIGN)
 python-i3ipc
-python-nautilus
 python-pip
 python-pipx
 qbittorrent
@@ -131,7 +135,6 @@ stow
 stremio (FOREIGN)
 sudo
 swappy
-sway
 swaybg
 swayidle
 swayimg
@@ -139,6 +142,7 @@ swaylock
 swaync
 swww
 sysfsutils
+systemctl-tui
 teams-for-linux-git (FOREIGN)
 terminus-font
 tetrs (FOREIGN)
@@ -166,6 +170,7 @@ wireguard-tools
 wireguird (FOREIGN)
 wl-clipboard
 wlr-randr
+wlroots
 wofi
 wttrbar (FOREIGN)
 xdg-desktop-portal-hyprland
