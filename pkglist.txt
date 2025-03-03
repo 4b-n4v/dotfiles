@@ -1,9 +1,10 @@
-Last Updated: Sat Jan 11 06:07:41 PM CST 2025
+Last Updated: Mon Mar 3 09:11:20 AM CST 2025
 
-Total Packages: 1272
-Foreign Packages: 29
+Total Packages: 1292
+Foreign Packages: 31
 
-android-studio (FOREIGN)
+7zip
+anki-bin (FOREIGN)
 arandr
 arc-gtk-theme
 base
@@ -20,6 +21,7 @@ clipse (FOREIGN)
 cmake
 cmatrix
 code
+cowsay
 docker
 docker-compose
 dolphin
@@ -35,13 +37,13 @@ file-roller
 firefox
 firefox-tridactyl
 flatpak
-foot
 ftxui (FOREIGN)
 fzf
 gammastep
 gedit
 git
 github-cli
+glow
 gnome-disk-utility
 gnome-themes-extra
 gnome-tweaks
@@ -52,6 +54,7 @@ grub
 gtk-engine-murrine
 gtk4
 gvfs-smb
+gvim
 gwenview
 hunspell-en_ca
 hyphen-en
@@ -74,6 +77,7 @@ libmythes
 libreoffice-fresh
 linux
 linux-firmware
+lua-language-server
 maim
 mako
 meson
@@ -89,7 +93,6 @@ neofetch
 neovim
 network-manager-applet
 networkmanager
-nodejs
 noto-fonts-cjk
 npm
 ntfs-3g
@@ -99,6 +102,7 @@ nvidia-prime-rtd3pm (FOREIGN)
 nvidia-settings
 nwg-look
 nwg-wrapper (FOREIGN)
+obsidian
 openjdk21-src
 openresolv
 os-prober
@@ -106,6 +110,7 @@ pacman-contrib
 pamixer
 papirus-icon-theme
 pavucontrol
+perl-image-exiftool
 phinger-cursors (FOREIGN)
 pika-backup
 plasma-desktop
@@ -123,10 +128,10 @@ qt6ct
 reflector
 ripgrep
 rofi-wayland
-rust
 sassc
 sddm
 simple-scan
+skim
 slurp
 spicetify-cli (FOREIGN)
 spotify-launcher
@@ -135,25 +140,18 @@ stow
 stremio (FOREIGN)
 sudo
 swappy
-swaybg
-swayidle
-swayimg
-swaylock
 swaync
 swww
 sysfsutils
 systemctl-tui
-teams-for-linux-git (FOREIGN)
 terminus-font
 tetrs (FOREIGN)
-thefuck
 thunar
 tree
 ttf-atkinson-hyperlegible
 ttf-dejavu
 ttf-font-awesome
 ttf-jetbrains-mono-nerd
-tui-sudoku (FOREIGN)
 tumbler
 typescript
 ufw
@@ -214,9 +212,10 @@ xorg-xwininfo
 xorg-xwud
 yay (FOREIGN)
 yay-debug (FOREIGN)
-youtube-dl-gui-git (FOREIGN)
+yazi
+yt-dlg (FOREIGN)
 zathura
 zathura-pdf-mupdf
-zellij
+zellij-git (FOREIGN)
 zoxide
 zsh

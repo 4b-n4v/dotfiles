@@ -16,6 +16,13 @@ class = "main-dropterm"
 size = "75% 60%"
 max_size = "1920px 100%"
 
+[scratchpads.yazi]
+animation = "fromTop"
+command = "kitty --class yazi -e yazi"
+class = "yazi"
+size = "75% 60%"
+max_size = "1920px 100%"
+
 [scratchpads.music]
 animation = "fromLeft"
 command = "kitty --class ncspot -e ncspot"

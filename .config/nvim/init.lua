@@ -1,51 +1,60 @@
---[[
-
-=====================================================================
-==================== READ THIS BEFORE CONTINUING ====================
-=====================================================================
-========                                    .-----.          ========
-========         .----------------------.   | === |          ========
-========         |.-""""""""""""""""""-.|   |-----|          ========
-========         ||                    ||   | === |          ========
-========         ||   KICKSTART.NVIM   ||   |-----|          ========
-========         ||                    ||   | === |          ========
-========         ||                    ||   |-----|          ========
-========         ||:Tutor              ||   |:::::|          ========
-========         |'-..................-'|   |____o|          ========
-========         `"")----------------(""`   ___________      ========
-========        /::::::::::|  |::::::::::\  \ no mouse \     ========
-========       /:::========|  |==hjkl==:::\  \ required \    ========
-========      '""""""""""""'  '""""""""""""'  '""""""""""'   ========
-========                                                     ========
-=====================================================================
-=====================================================================
---]]
+--          --[[  My personal Neovim Configuration ]]--
+--          --[[  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  ]]--
 --
--- See `:help mapleader`
---  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
-vim.g.mapleader = " "
-vim.g.maplocalleader = ","
+--                        .,,uod8B8bou,,.
+--               ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
+--          ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
+--          !...:!TVBBBRPFT||||||||||!!^^""'   ||||
+--          !.......:!?|||||!!^^""'            ||||
+--          !.........||||                     ||||
+--          !.........|||| # 4b-n4v @arch in ~ ||||
+--          !.........|||| $ nvim              ||||
+--          !.........||||                     ||||
+--          !.........||||                     ||||
+--          !.........||||                     ||||
+--          `.........||||                    ,||||
+--           .;.......||||               _.-!!|||||
+--    .,uodWBBBBb.....||||       _.-!!|||||||||!:'
+-- !YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
+-- !..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
+-- !....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
+-- !......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.
+-- !........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
+-- `..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
+--   `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
+--     `........::::::::::::::::;iof688888888888888888888b.     `
+--       `......:::::::::;iof688888888888888888888888888888b.
+--         `....:::;iof688888888888888888888888888888888899fT!
+--           `..::!8888888888888888888888888888888899fT|!^"'
+--             `' !!988888888888888888888888899fT|!^"'
+--                 `!!8888888888888888899fT|!^"'
+--                   `!988888888899fT|!^"'
+--                     `!9899fT|!^"'
+--                       `!^"'
+--
+--           --[[     Kudos to
+--                    https://github.com/vhyrro
+--                    for giving me a better
+--                    understanding of Neovim
+--                    and Kickstart NVIM            ]]--
+--
+-- Leaders
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 
--- Set folds to disabled cuz folds suck balls
-vim.g.foldenable = false
--- Set to true if you have a Nerd Font installed and selected in the terminal
+-- Nerd Fonts
 vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
-require("options")
+require 'options' -- Under ./lua/options.lua
 
 -- [[ Basic Keymaps ]]
-require("keymaps")
+require 'keymaps' -- Under ./lua/keymaps.lua
 
--- [[ Install `lazy.nvim` plugin manager ]]
-require("lazy-bootstrap")
+-- [[ Lazy Plugin Manager ]]
+require 'lazy-bootstrap' -- Under ./lua/lazy-bootstrap.lua
 
 -- [[ Configure and install plugins ]]
-require("lazy-plugins")
+require 'lazy-plugins' -- Under ./lua/lazy-plugins.lua
 
--- The line beneath this is called `modeline`. See `:help modeline`
-vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
-	pattern = "*.ejs",
-	command = "set filetype=ejs",
-})
 -- vim: ts=2 sts=2 sw=2 et

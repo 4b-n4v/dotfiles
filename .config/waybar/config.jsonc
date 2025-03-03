@@ -14,10 +14,12 @@
    "hyprland/workspaces",
   // "hyprland/window",
    "custom/spt",
+  "custom/pomodoro",
 ],
   "modules-center": [
    "custom/weather", 
-   "clock"],
+   "clock",
+],
   "modules-right": [
     "hyprland/language",
    // "custom/weather", 
@@ -228,6 +230,13 @@
     "format": " ",
     "on-click": "bash ~/.config/rofi/leave/leave.sh",
   },
+  "custom/pomodoro": {
+	  "format": "{}",
+	  "return-type": "json",
+	  "exec": "waybar-module-pomodoro",
+	  "on-click": "waybar-module-pomodoro toggle",
+	  "on-click-right": "waybar-module-pomodoro reset",
+  },
   // updates
   "custom/updates": {
     "format": "{} Update(s)",
@@ -245,7 +254,7 @@
 	// 0.25 GB out of 2000.00 GB available. Alternatively 241.3MiB out of 1.9TiB available.
   },
   "hyprland/window": {  
-//"format": "{}"   // <--- these is the default value  
+  //"format": "{}"   // <--- these is the default value  
     "format": "<span font='9' rise='-4444'>{}</span>"  
   },
 },
