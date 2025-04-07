@@ -45,7 +45,7 @@ vim.g.maplocalleader = ' '
 -- Nerd Fonts
 vim.g.have_nerd_font = true
 
--- [[ Setting options ]]
+-- [[ Setting options yeehaw ]]
 require 'options' -- Under ./lua/options.lua
 
 -- [[ Basic Keymaps ]]
