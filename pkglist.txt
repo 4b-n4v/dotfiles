@@ -1,14 +1,15 @@
-Last Updated: Mon Mar 3 09:11:20 AM CST 2025
+Last Updated: Sat Apr 12 08:45:18 PM CDT 2025
 
-Total Packages: 1292
-Foreign Packages: 31
+Total Packages: 1306
+Foreign Packages: 34
 
 7zip
 anki-bin (FOREIGN)
 arandr
-arc-gtk-theme
+arc-gtk-theme (FOREIGN)
 base
 base-devel
+bitwarden
 blueman
 bluetuith (FOREIGN)
 bluez
@@ -20,7 +21,6 @@ clang
 clipse (FOREIGN)
 cmake
 cmatrix
-code
 cowsay
 docker
 docker-compose
@@ -75,6 +75,7 @@ kvantum
 lazygit
 libmythes
 libreoffice-fresh
+libsass
 linux
 linux-firmware
 lua-language-server
@@ -128,7 +129,6 @@ qt6ct
 reflector
 ripgrep
 rofi-wayland
-sassc
 sddm
 simple-scan
 skim
@@ -154,6 +154,7 @@ ttf-font-awesome
 ttf-jetbrains-mono-nerd
 tumbler
 typescript
+ueberzugpp
 ufw
 unzip
 usbmuxd
@@ -161,6 +162,7 @@ usbutils
 v4l2loopback-dkms
 v4l2loopback-utils
 vesktop (FOREIGN)
+visual-studio-code-bin (FOREIGN)
 waybar
 wget
 whois

@@ -36,9 +36,9 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  -- require 'core.plugins.debug',
+  require 'core.plugins.debug',
   -- require 'core.plugins.indent_line',
-  -- require 'core.plugins.lint',
+  require 'core.plugins.lint',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
@@ -46,6 +46,8 @@ require('lazy').setup({
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   -- { import = 'custom.plugins' },
   require 'custom.plugins.alpha-nvim',
+  require 'custom.plugins.leetcode',
+
   require 'custom.plugins.nvim-highlight-colors',
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
