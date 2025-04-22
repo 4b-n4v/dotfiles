@@ -41,11 +41,16 @@ return {
         lua = { 'stylua' },
         cpp = { 'clang-format' },
         c = { 'clang-format' },
-        -- python = { "isort", "black" },
+        python = { 'isort', 'black' },
         -- Use 'stop_after_first' to run the first available formatter from the list
         -- javascript = { "prettierd", "prettier", stop_after_first = true },
+      },
+      formatters = {
+        black = {
+          prepend_args = { '--fast' },
+        },
       },
     },
   },
 }
--- vim: ts=2 sts=2 sw=2 et
+-- vim: ts=2w sts=w2 sw=2 et

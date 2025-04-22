@@ -1,60 +1,48 @@
 layout {
-    cwd "/home/n4v"
+    cwd "/home/n4v/Projects/"
     tab name="Code" focus=true hide_floating_panes=true {
-        pane size=1 borderless=true {
-            plugin location="zellij:tab-bar"
-        }
-        pane name="Editor" focus=true {
+        pane name="Neovim" cwd="Projects" focus=true {
         }
         pane size=1 borderless=true {
-            plugin location="zellij:status-bar"
+            plugin location="zellij:compact-bar"
         }
         floating_panes {
-            pane name="FloatTerm" {
-                height 32
-                width 133
+            pane name="Terminal" contents_file="initial_contents_1" {
+                height 31
+                width 131
                 x 8
                 y 1
             }
-            pane name="FloatTerm2" {
-                height 32
-                width 133
-                x 8
-                y 2
-            }
         }
     }
-    tab name="Terminal" {
+    tab name="Terminal" hide_floating_panes=true {
+        pane name="Zsh" contents_file="initial_contents_2"
         pane size=1 borderless=true {
-            plugin location="zellij:tab-bar"
+            plugin location="zellij:compact-bar"
         }
-        pane name="Term Actions" cwd=".dotfiles/.config/.zellij"
+    }
+    tab name="Notes" hide_floating_panes=true {
+        pane command="/home/n4v/.scripts/neorg.sh" name="Neorg" cwd=".dotfiles/.scripts" contents_file="initial_contents_3"
         pane size=1 borderless=true {
-            plugin location="zellij:status-bar"
+            plugin location="zellij:compact-bar"
         }
-        floating_panes {
-            pane name="FloatTerm" {
-                height 17
-                width 73
-                x 37
-                y 10
-            }
+    }
+    tab name="Procs" hide_floating_panes=true {
+        pane command="btop" name="Btop" {
+            start_suspended true
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
         }
     }
     new_tab_template {
-        pane size=1 borderless=true {
-            plugin location="zellij:tab-bar"
-        }
         pane
         pane size=1 borderless=true {
-            plugin location="zellij:status-bar"
+            plugin location="compact-bar"
         }
     }
     swap_tiled_layout name="vertical" {
-        tab max_panes=5 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab max_panes=4 {
             pane {
                 pane split_direction="vertical" {
                     pane
@@ -64,13 +52,10 @@ layout {
                 }
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
-        tab max_panes=8 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab max_panes=7 {
             pane {
                 pane split_direction="vertical" {
                     pane {
@@ -85,13 +70,10 @@ layout {
                 }
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
-        tab max_panes=12 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab max_panes=11 {
             pane {
                 pane split_direction="vertical" {
                     pane {
@@ -112,27 +94,21 @@ layout {
                 }
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
     }
     swap_tiled_layout name="horizontal" {
-        tab max_panes=4 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab max_panes=3 {
             pane {
                 pane
                 pane
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
-        tab max_panes=8 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab max_panes=7 {
             pane {
                 pane {
                     pane split_direction="vertical" {
@@ -147,13 +123,10 @@ layout {
                 }
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
-        tab max_panes=12 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab max_panes=11 {
             pane {
                 pane {
                     pane split_direction="vertical" {
@@ -174,15 +147,12 @@ layout {
                 }
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
     }
     swap_tiled_layout name="stacked" {
-        tab min_panes=5 {
-            pane size=1 borderless=true {
-                plugin location="tab-bar"
-            }
+        tab min_panes=4 {
             pane {
                 pane split_direction="vertical" {
                     pane
@@ -192,13 +162,12 @@ layout {
                 }
             }
             pane size=1 borderless=true {
-                plugin location="status-bar"
+                plugin location="compact-bar"
             }
         }
     }
     swap_floating_layout name="staggered" {
-        floating_panes {
-        }
+        floating_panes 
     }
     swap_floating_layout name="enlarged" {
         floating_panes max_panes=10 {
@@ -256,7 +225,7 @@ layout {
                 x "5%"
                 y 9
             }
-            pane {
+            pane focus=true {
                 height "90%"
                 width "90%"
                 x 10
@@ -284,7 +253,7 @@ layout {
             }
         }
         floating_panes max_panes=3 {
-            pane {
+            pane focus=true {
                 height "45%"
                 width "45%"
                 y "55%"
@@ -307,7 +276,7 @@ layout {
                 x "1%"
                 y "55%"
             }
-            pane {
+            pane focus=true {
                 height "45%"
                 width "45%"
                 x "50%"
@@ -328,4 +297,3 @@ layout {
         }
     }
 }
-

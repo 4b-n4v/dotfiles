@@ -15,7 +15,7 @@ require('lazy').setup({
 
   require 'core.plugins.cmp',
 
-  require 'core.plugins.gruvbox-material',
+  require 'core.plugins.colorscheme',
 
   require 'core.plugins.todo-comments',
 
