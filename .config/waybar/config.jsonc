@@ -11,23 +11,21 @@
   // // Modules layout
   //
   "modules-left": [
-   "hyprland/workspaces",
+  "hyprland/workspaces"
   // "hyprland/window",
-   "custom/spt",
-  "custom/pomodoro",
+  // "custom/spt",
 ],
   "modules-center": [
-   "custom/weather", 
+   "custom/weather",
    "clock",
 ],
   "modules-right": [
     "hyprland/language",
-   // "custom/weather", 
     "disk",
     "memory",
     "backlight",
     "pulseaudio",
-    "bluetooth",
+    // "bluetooth",
     "battery",
     "tray",
   ],
@@ -53,24 +51,6 @@
       "sort-by-number": true,
     },
   },
-
-  // spotify
-
-  "custom/spt": {
-    "exec": "python $HOME/.config/waybar/modules/mediaplayer.py --player spotifyd",
-    "format": " {}",
-    "rotate": 0,
-    "return-type": "json",
-    "on-click": "playerctl play-pause --player spotifyd",
-    "on-click-right": "playerctl previous --player spotifyd",
-    "on-click-middle": "playerctl next --player spotifyd",
-    "on-scroll-up": "volumecontrol.sh -p spotifyd i",
-    "on-scroll-down": "volumecontrol.sh -p spotifyd d",
-    "max-length": 50,
-    "escape": true,
-    "tooltip-format": " {}",
-  },
-
   // clock
 
   "clock": {
@@ -159,11 +139,6 @@
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "tooltip-format": "󰂁 {capacity}%\n{time}",
   },
-  // cava
-  "custom/cava": {
-    "exec": "$HOME/.config/waybar/modules/waybarcava.sh",
-    "format": "{}",
-  },
   // tray
   "tray": {
     "icon-size": 14,
@@ -204,46 +179,6 @@
     "interval": 1,
     "on-scroll-up": "brightnessctl set +10",
     "on-scroll-down": "brightnessctl set 10-",
-  },
-  // media
-  "custom/media": {
-    "interval": 30,
-    "format": "{icon} {}",
-    "return-type": "json",
-    "max-length": 20,
-    "format-icons": {
-      "spotify": " ",
-      "default": " ",
-    },
-    "escape": true,
-    "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
-    "on-click": "playerctl play-pause",
-  },
-  // launcher
-  "custom/launcher": {
-    "format": " ",
-    "on-click": "$HOME/.config/rofi/launchers/type-6/launcher.sh",
-    "on-click-right": "killall rofi",
-  },
-  // power
-  "custom/power": {
-    "format": " ",
-    "on-click": "bash ~/.config/rofi/leave/leave.sh",
-  },
-  "custom/pomodoro": {
-	  "format": "{}",
-	  "return-type": "json",
-	  "exec": "waybar-module-pomodoro",
-	  "on-click": "waybar-module-pomodoro toggle",
-	  "on-click-right": "waybar-module-pomodoro reset",
-  },
-  // updates
-  "custom/updates": {
-    "format": "{} Update(s)",
-    "exec": "checkupdates | wc -l",
-    "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
-    "interval": 15,
-    "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' ",
   },
   "disk": {
 	"interval": 30,

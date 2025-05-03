@@ -1,0 +1,15 @@
+themes {
+    bathory {
+        bg "#000000"
+        fg "#c1c1c1"
+        black "#111113"
+        red "#5f8787"
+        green "#c1c1c1"
+        yellow "#888888"
+        blue "#aaaaaa"
+        magenta "#999999"
+        cyan "#fbcb97"
+        white "#c1c1c1"
+        orange "#f78c6c"
+    }
+}

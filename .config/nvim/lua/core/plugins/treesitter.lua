@@ -1,5 +1,6 @@
 return {
   { -- Highlight, edit, and navigate code
+
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     main = 'nvim-treesitter.configs', -- Sets main module to use for opts
@@ -69,6 +70,15 @@ return {
           },
         }
       end,
+    },
+    {
+      'windwp/nvim-ts-autotag',
+      opts = {},
+      per_filetype = {
+        ['html'] = {
+          enable_close = false,
+        },
+      },
     },
   },
 }

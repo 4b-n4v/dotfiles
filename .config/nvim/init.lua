@@ -57,4 +57,8 @@ require 'lazy-bootstrap' -- Under ./lua/lazy-bootstrap.lua
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins' -- Under ./lua/lazy-plugins.lua
 
+-- [[ Colorscheme ]]
+vim.cmd.colorscheme 'moonfly'
+require('highlights').setup()
+-- Lua initialization file
 -- vim: ts=2 sts=2 sw=2 et

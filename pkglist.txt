@@ -1,7 +1,7 @@
-Last Updated: Sat Apr 12 08:45:18 PM CDT 2025
+Last Updated: Fri May 2 09:15:05 PM CDT 2025
 
-Total Packages: 1306
-Foreign Packages: 34
+Total Packages: 1326
+Foreign Packages: 36
 
 7zip
 anki-bin (FOREIGN)
@@ -16,6 +16,7 @@ bluez
 bluez-utils
 brightnessctl
 btop
+cargo-generate
 chntpw
 clang
 clipse (FOREIGN)
@@ -41,6 +42,8 @@ ftxui (FOREIGN)
 fzf
 gammastep
 gedit
+ghostty
+gimp
 git
 github-cli
 glow
@@ -151,6 +154,7 @@ tree
 ttf-atkinson-hyperlegible
 ttf-dejavu
 ttf-font-awesome
+ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 tumbler
 typescript
@@ -213,7 +217,6 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay (FOREIGN)
-yay-debug (FOREIGN)
 yazi
 yt-dlg (FOREIGN)
 zathura

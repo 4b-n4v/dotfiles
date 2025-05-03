@@ -15,6 +15,7 @@
 tooltip {
   background: @bg;
   color: @fg;
+  /* border-radius: 10px; */
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;

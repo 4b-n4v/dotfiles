@@ -29,7 +29,7 @@ require('lazy').setup({
 
   require 'core.plugins.autopairs',
 
-  require 'core.plugins.neo-tree',
+  -- require 'core.plugins.neo-tree',
 
   require 'core.plugins.telescope-undo',
   --
@@ -47,6 +47,7 @@ require('lazy').setup({
   -- { import = 'custom.plugins' },
   require 'custom.plugins.alpha-nvim',
   require 'custom.plugins.leetcode',
+  require 'custom.plugins.arrow-nvim',
 
   require 'custom.plugins.nvim-highlight-colors',
   --
