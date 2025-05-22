@@ -1,7 +1,7 @@
-Last Updated: Fri May 2 09:15:05 PM CDT 2025
+Last Updated: Thu May 22 09:42:07 AM CDT 2025
 
-Total Packages: 1326
-Foreign Packages: 36
+Total Packages: 1312
+Foreign Packages: 29
 
 7zip
 anki-bin (FOREIGN)
@@ -29,6 +29,7 @@ dolphin
 dosfstools
 efibootmgr
 eslint
+evtest
 eza
 fd
 feh
@@ -65,6 +66,7 @@ hypridle
 hyprland
 hyprlock
 hyprpicker
+hyprsunset
 imagemagick
 intel-ucode
 java-runtime-common
@@ -93,7 +95,7 @@ nautilus-open-any-terminal (FOREIGN)
 nautilus-python
 ncdu
 ncspot
-neofetch
+neofetch (FOREIGN)
 neovim
 network-manager-applet
 networkmanager
@@ -136,6 +138,7 @@ sddm
 simple-scan
 skim
 slurp
+smplayer
 spicetify-cli (FOREIGN)
 spotify-launcher
 sqlitebrowser
@@ -158,6 +161,7 @@ ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 tumbler
 typescript
+typst
 ueberzugpp
 ufw
 unzip
@@ -168,11 +172,13 @@ v4l2loopback-utils
 vesktop (FOREIGN)
 visual-studio-code-bin (FOREIGN)
 waybar
+wev
 wget
 whois
 wireguard-tools
 wireguird (FOREIGN)
 wl-clipboard
+wlogout (FOREIGN)
 wlr-randr
 wlroots
 wofi

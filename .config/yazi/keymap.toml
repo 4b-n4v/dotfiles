@@ -1,4 +1,0 @@
-[manager]
-# prepend_keymap = [
-#     { on = "<Enter>", run = "enter", desc = "Enter child directory" },
-# ]

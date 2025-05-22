@@ -160,6 +160,15 @@ keybinds clear-defaults=true {
         bind "Alt l" { MoveFocus "right"; }
         bind "Alt n" { NewPane; }
         bind "Alt o" { MoveTab "right"; }
+        bind "Alt 1" { GoToTab 1; SwitchToMode "locked"; }
+        bind "Alt 2" { GoToTab 2; SwitchToMode "locked"; }
+        bind "Alt 3" { GoToTab 3; SwitchToMode "locked"; }
+        bind "Alt 4" { GoToTab 4; SwitchToMode "locked"; }
+        bind "Alt 5" { GoToTab 5; SwitchToMode "locked"; }
+        bind "Alt 6" { GoToTab 6; SwitchToMode "locked"; }
+        bind "Alt 7" { GoToTab 7; SwitchToMode "locked"; }
+        bind "Alt 8" { GoToTab 8; SwitchToMode "locked"; }
+        bind "Alt 9" { GoToTab 9; SwitchToMode "locked"; }
     }
     shared_except "locked" "renametab" "renamepane" {
         bind "Ctrl g" { SwitchToMode "locked"; }
@@ -254,12 +263,18 @@ load_plugins {
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-// theme "gruvbox-medium-dark"
+theme "gruvbox-medium-dark"
 // theme "bathory"
 // theme "moonfly"
-theme "moonfly"
 
- 
+ ui {
+     pane_frame {
+         rounded_corners true
+     }
+     floating_panes {
+         rounded_corners true
+     }
+ }
 // Choose the base input mode of zellij.
 // Default: normal
 // 

@@ -58,7 +58,11 @@ require 'lazy-bootstrap' -- Under ./lua/lazy-bootstrap.lua
 require 'lazy-plugins' -- Under ./lua/lazy-plugins.lua
 
 -- [[ Colorscheme ]]
-vim.cmd.colorscheme 'moonfly'
-require('highlights').setup()
+vim.cmd.colorscheme 'gruvbox-material'
 -- Lua initialization file
+vim.cmd [[
+  highlight WhichKeyNormal guibg=#282828
+  highlight WhichKeyBorder guibg=#282828
+  highlight WhichKeyTitle guibg=#282828
+]]
 -- vim: ts=2 sts=2 sw=2 et

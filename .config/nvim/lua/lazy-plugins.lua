@@ -13,7 +13,7 @@ require('lazy').setup({
 
   require 'core.plugins.conform',
 
-  require 'core.plugins.cmp',
+  require 'core.plugins.blink-cmp',
 
   require 'core.plugins.colorscheme',
 
@@ -48,8 +48,18 @@ require('lazy').setup({
   require 'custom.plugins.alpha-nvim',
   require 'custom.plugins.leetcode',
   require 'custom.plugins.arrow-nvim',
-
   require 'custom.plugins.nvim-highlight-colors',
+  require 'custom.plugins.obsidian',
+  require 'custom.plugins.typst-preview',
+  -- Test out some plugins!
+  {
+    -- { -- It's kinda dookie, i don't like it.
+    --   'karb94/neoscroll.nvim',
+    --   opts = {
+    --     duration_multipler = 10.0,
+    --   },
+    -- },
+  },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!

@@ -24,7 +24,6 @@ return {
       vim.g.moonflyCursorColor = true
       -- Optionally configure and load the colorscheme
       -- directly inside the plugin declaration.
-      -- vim.g.gruvbox_material_enable_italic = true
     end,
   },
   {
@@ -35,12 +34,11 @@ return {
     'sainnhe/gruvbox-material',
     lazy = false,
     priority = 1000,
-    -- config = function()
-    --   -- Optionally configure and load the colorscheme
-    --   -- directly inside the plugin declaration.
-    --   vim.g.gruvbox_material_enable_italic = true
-    --   vim.cmd.colorscheme 'gruvbox-material'
-    -- end,
+    config = function()
+      -- Optionally configure and load the colorscheme
+      -- directly inside the plugin declaration.
+      vim.g.gruvbox_material_enable_italic = true
+    end,
   },
   {
     'tjdevries/colorbuddy.nvim',
@@ -87,13 +85,34 @@ return {
     'ficcdaf/ashen.nvim',
     -- optional but recommended,
     -- pin to the latest stable release:
-    tag = '*',
+    -- tag = '*',
     lazy = false,
     priority = 1000,
     -- configuration is optional!
     opts = {
       -- your settings here
     },
+  },
+  {
+    'WTFox/jellybeans.nvim',
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
+    -- Change the name of the colorscheme plugin below, and then
+    -- change the command in the config to whatever the name of that colorscheme is.
+    --
+    -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
+    'luisiacc/gruvbox-baby',
+    lazy = false,
+    priority = 1000,
+    -- config = function()
+    --   -- Optionally configure and load the colorscheme
+    --   -- directly inside the plugin declaration.
+    --   vim.g.gruvbox_material_enable_italic = true
+    --   vim.cmd.colorscheme 'gruvbox-material'
+    -- end,
   },
 }
 -- vim: ts=2 sts=2 sw=2 et
