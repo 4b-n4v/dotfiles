@@ -10,5 +10,3 @@ configuration {
 }
 
 @theme "~/.config/rofi/gruvbox-material.rasi"
-
-

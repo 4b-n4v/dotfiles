@@ -1,0 +1,45 @@
+/* Gruvbox Material Dark */
+
+* {
+  bg0h:           #1b1b1b;
+  bg0:            #282828;
+  bg1:            #32302f;
+  bg2:            #3a3735;
+  bg3:            #45403d;
+  bg4:            #504945;
+  gray:           #928374;
+  fg4:            #a89984;
+  fg3:            #bdae93;
+  fg2:            #d5c4a1;
+  fg1:            #ebdbb2;
+  fg0:            #fbf1c7;
+  red:            #ea6962;
+  brightred:      #ea6962;
+  green:          #a9b665;
+  brightgreen:    #a9b665;
+  yellow:         #d8a657;
+  brightyellow:   #d8a657;
+  blue:           #7daea3;
+  brightblue:     #7daea3;
+  purple:         #d3869b;
+  brightpurple:   #d3869b;
+  aqua:           #89b482;
+  brightaqua:     #89b482;
+  orange:         #e78a4e;
+  brightorange:   #e78a4e;
+}
+
+/* 
+  bg - background
+  fg - foreground
+  br - border
+*/
+
+* {
+  main-bg:        @bg0h;
+  main-fg:        @fg0;
+  main-br:        @yellow;
+  input-bg:       @bg1;
+  select-bg:      @yellow;
+  select-fg:      @bg0h;
+}

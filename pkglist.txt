@@ -1,7 +1,7 @@
-Last Updated: Thu May 22 09:42:07 AM CDT 2025
+Last Updated: Fri May 23 01:03:40 PM CDT 2025
 
-Total Packages: 1312
-Foreign Packages: 29
+Total Packages: 1318
+Foreign Packages: 31
 
 7zip
 anki-bin (FOREIGN)
@@ -11,6 +11,7 @@ base
 base-devel
 bitwarden
 blueman
+bluetui
 bluetuith (FOREIGN)
 bluez
 bluez-utils
@@ -27,6 +28,7 @@ docker
 docker-compose
 dolphin
 dosfstools
+dust
 efibootmgr
 eslint
 evtest
@@ -133,7 +135,7 @@ qt5-wayland
 qt6ct
 reflector
 ripgrep
-rofi-wayland
+rofi-lbonn-wayland-git (FOREIGN)
 sddm
 simple-scan
 skim
@@ -183,6 +185,7 @@ wlr-randr
 wlroots
 wofi
 wttrbar (FOREIGN)
+xcb-imdkit
 xdg-desktop-portal-hyprland
 xf86-video-vesa
 xorg-bdftopcf

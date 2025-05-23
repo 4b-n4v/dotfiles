@@ -100,68 +100,63 @@
     "rewrite": {
       // ────────────────────────────────────────────────────────── desktop ───
       "": 
-        "<span foreground='#7daea3'> </span> Hyprland",
+        "<span foreground='#8caaee'> </span> Hyprland",
 
       // ───────────────────────────────────────────────────────── terminal ───
 
       "~": "  Terminal",
-      "~(.*)": "  $1",
-      "/(.*)": "  $1",
-      "n4v@Legion5-Arch:~": "  Terminal",
       "zsh": "  Terminal",
       "kitty": "  Terminal",
 
-      "zellij(.*)": 
-        "<span foreground='#A0BA8B'>󰋙 </span> Zellij",
+      "tmux(.*)": 
+        "<span foreground='#a6d189'> </span> Tmux",
 
       // ────────────────────────────────────────────────────────── browser ───
 
       "(.*)Mozilla Firefox": 
-        "<span foreground='#ea6962'>󰈹 </span> Firefox",
+        "<span foreground='#e78284'>󰈹 </span> Firefox",
       "(.*) — Mozilla Firefox": 
-        "<span foreground='#ea6962'>󰈹 </span> $1",
+        "<span foreground='#e78284'>󰈹 </span> $1",
 
       "(.*)Zen Browser": 
-        "<span foreground='#e78a4e'>󰺕 </span> Zen Browser",
+        "<span foreground='#ef9f76'>󰺕 </span> Zen Browser",
       "(.*) — Zen Browser": 
-        "<span foreground='#e78a4e'>󰺕 </span> $1",
+        "<span foreground='#ef9f76'>󰺕 </span> $1",
 
       // ────────────────────────────────────────────────────── development ───
 
       "(.*) - Visual Studio Code": 
-        "<span foreground='#7daea3'>󰨞 </span> $1",
+        "<span foreground='#8caaee'>󰨞 </span> $1",
       "(.*)Visual Studio Code": 
-        "<span foreground='#7daea3'>󰨞 </span> Visual Studio Code",
+        "<span foreground='#8caaee'>󰨞 </span> Visual Studio Code",
 
       "nvim": 
-        "<span foreground='#a9b665'> </span> Neovim",
-      "v": 
-        "<span foreground='#a9b665'> </span> Neovim",
+        "<span foreground='#a6d189'> </span> Neovim",
       "nvim (.*)": 
-        "<span foreground='#a9b665'> </span> $1",
+        "<span foreground='#a6d189'> </span> $1",
 
       "vim": 
-        "<span foreground='#a9b665'> </span> Vim",
+        "<span foreground='#a6d189'> </span> Vim",
       "vim (.*)": 
-        "<span foreground='#a9b665'> </span> $1",
+        "<span foreground='#a6d189'> </span> $1",
 
       // ──────────────────────────────────────────────────────────── media ───
 
       "(.*)Spotify": 
-        "<span foreground='#a9b665'> </span> Spotify",
+        "<span foreground='#a6d189'> </span> Spotify",
       "(.*)Spotify Premium": 
-        "<span foreground='#a9b665'> </span> Spotify Premium",
+        "<span foreground='#a6d189'> </span> Spotify Premium",
 
       "OBS(.*)": 
-        "<span foreground='#d5c4a1'> </span> OBS Studio",
+        "<span foreground='#a5adce'> </span> OBS Studio",
 
       "VLC media player": 
-        "<span foreground='#e78a4e'>󰕼 </span> VLC Media Player",
+        "<span foreground='#ef9f76'>󰕼 </span> VLC Media Player",
       "(.*) - VLC media player": 
-        "<span foreground='#e78a4e'>󰕼 </span> $1",
+        "<span foreground='#ef9f76'>󰕼 </span> $1",
 
       "(.*) - mpv": 
-        "<span foreground='#b16286'> </span> $1",
+        "<span foreground='#ca9ee6'> </span> $1",
 
       "qView": "  qView",
 
@@ -173,24 +168,24 @@
 
       "• Discord(.*)": "Discord$1",
       "(.*)Discord(.*)": 
-        "<span foreground='#7daea3'> </span> $1Discord$2",
+        "<span foreground='#8caaee'> </span> $1Discord$2",
 
       "vesktop": 
-        "<span foreground='#7daea3'> </span> Discord",
+        "<span foreground='#8caaee'> </span> Discord",
 
       // ──────────────────────────────────────────────────────── documents ───
 
       "ONLYOFFICE Desktop Editors": 
-        "<span foreground='#ea6962'> </span> OnlyOffice Desktop",
+        "<span foreground='#e78284'> </span> OnlyOffice Desktop",
 
       "(.*).docx": 
-        "<span foreground='#7daea3'> </span> $1.docx",
+        "<span foreground='#8caaee'> </span> $1.docx",
       "(.*).xlsx": 
-        "<span foreground='#a9b665'> </span> $1.xlsx",
+        "<span foreground='#a6d189'> </span> $1.xlsx",
       "(.*).pptx": 
-        "<span foreground='#e78a4e'> </span> $1.pptx",
+        "<span foreground='#ef9f76'> </span> $1.pptx",
       "(.*).pdf": 
-        "<span foreground='#ea6962'> </span> $1.pdf",
+        "<span foreground='#e78284'> </span> $1.pdf",
 
       // ─────────────────────────────────────────────────────────── system ───
       "Authenticate": "  Authenticate"
@@ -280,11 +275,11 @@
 
       "format": {
         "months": 
-          "<span color='#928374'><b>{}</b></span>",
+          "<span color='#babbf1'><b>{}</b></span>",
         "weekdays": 
-          "<span color='#d5c4a1' font='7'>{}</span>",
+          "<span color='#a5adce' font='7'>{}</span>",
         "today": 
-          "<span color='#ea6962'><b>{}</b></span>"
+          "<span color='#e78284'><b>{}</b></span>"
       }
     },
 
@@ -356,12 +351,11 @@
 
     "player-icons": {
       "default": "󰝚 ",
-      "ncspot": "<span foreground='#a9b665'>󰓇 </span>",
-      "spotify": "<span foreground='#a9b665'>󰓇 </span>",
-      "firefox": "<span foreground='#ea6962'>󰗃 </span>"
+      "spotify": "<span foreground='#a6d189'>󰓇 </span>",
+      "firefox": "<span foreground='#e78284'>󰗃 </span>"
     },
     "status-icons": {
-      "paused": "<span color='#928374'>\u200A\u200A󰏤\u2009\u2009</span>"
+      "paused": "<span color='#babbf1'>\u200A\u200A󰏤\u2009\u2009</span>"
     },
 
     "tooltip-format": "Playing: {title} - {artist}",
