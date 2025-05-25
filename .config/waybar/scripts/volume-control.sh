@@ -51,9 +51,9 @@ action_volume() {
   i)
     # Increase volume if below 100
     current_vol=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}' | sed 's/%//')
-    if [ "$current_vol" -lt 100 ]; then
+    if [ "$current_vol" -lt 140 ]; then
       new_vol=$((current_vol + 2))
-      [ "$new_vol" -gt 100 ] && new_vol=100
+      [ "$new_vol" -gt 140 ] && new_vol=140
       pactl set-sink-volume @DEFAULT_SINK@ "${new_vol}%"
     fi
     ;;

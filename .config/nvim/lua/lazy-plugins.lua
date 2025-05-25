@@ -51,6 +51,7 @@ require('lazy').setup({
   require 'custom.plugins.nvim-highlight-colors',
   require 'custom.plugins.obsidian',
   require 'custom.plugins.typst-preview',
+  require 'custom.plugins.zen-mode',
   -- Test out some plugins!
   {
     -- { -- It's kinda dookie, i don't like it.

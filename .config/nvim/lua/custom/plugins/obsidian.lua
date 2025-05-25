@@ -18,8 +18,6 @@ return {
       'OXY2DEV/markview.nvim',
       lazy = false,
     },
-
-    -- see above for full list of optional dependencies ☝️
   },
   opts = {
     workspaces = {
@@ -102,5 +100,31 @@ return {
       end
       return tostring(os.time()) .. '-' .. suffix
     end,
+    picker = {
+      -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', 'mini.pick' or 'snacks.pick'.
+      name = 'telescope.nvim',
+      -- Optional, configure key mappings for the picker. These are the defaults.
+      -- Not all pickers support all mappings.
+      note_mappings = {
+        -- Create a new note from your query.
+        new = '<C-x>',
+        -- Insert a link to the selected note.
+        insert_link = '<C-l>',
+      },
+      tag_mappings = {
+        -- Add tag(s) to current note.
+        tag_note = '<C-x>',
+        -- Insert a tag at the current location.
+        insert_tag = '<C-l>',
+      },
+    },
   },
+  config = function(_, opts)
+    require('obsidian').setup(opts)
+
+    -- Add custom mapping in normal + visual mode
+    vim.keymap.set({ 'n', 'v' }, '<leader>go', function()
+      vim.cmd 'Obsidian'
+    end, { desc = 'Obsidian', buffer = true })
+  end,
 }
