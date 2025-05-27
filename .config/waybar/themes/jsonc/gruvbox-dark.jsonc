@@ -46,7 +46,8 @@
 
     "custom/wifi",          // wi-fi
     "bluetooth",            // bluetooth
-    "custom/update",        // system update
+    "hyprland/language",
+    // "custom/update",        // system update
     "custom/right5"
   ],
 
@@ -331,6 +332,14 @@
     "interval": 1,
     "min-length": 1,
     "max-length": 1
+  },
+
+  // ───────────────────────────────────────────────────────────┤ language ├───
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "EN",
+    "format-es": "ES",
+    "format-sv": "SV"
   },
 
   // ──────────────────────────────────────────────────────┤ system update ├───

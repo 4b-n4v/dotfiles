@@ -46,7 +46,8 @@
 
     "custom/wifi",          // wi-fi
     "bluetooth",            // bluetooth
-    "custom/update",        // system update
+    "hyprland/language",
+    // "custom/update",        // system update
     "custom/right5"
   ],
 
@@ -336,6 +337,14 @@
     "max-length": 1
   },
 
+  // ───────────────────────────────────────────────────────────┤ language ├───
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "EN",
+    "format-es": "ES",
+    "format-sv": "SV"
+  },
+
   // ──────────────────────────────────────────────────────┤ system update ├───
 
   "custom/update": {
@@ -428,6 +437,14 @@
     "tooltip": false,
     // "tooltip-format": "Power Menu",
     "on-click": "~/.config/waybar/scripts/power-menu.sh"
+  },
+
+  // ───────────────────────────────────────────────────────────┤ language ├───
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "EN",
+    "format-es": "ES",
+    "format-sv": "SV"
   },
 
   // ────────────────────────────────────────────────────────────┤ padding ├───
