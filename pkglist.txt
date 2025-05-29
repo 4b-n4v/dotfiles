@@ -1,6 +1,6 @@
-Last Updated: Mon May 26 03:10:22 AM CDT 2025
+Last Updated: Wed May 28 12:17:56 PM CDT 2025
 
-Total Packages: 1320
+Total Packages: 1321
 Foreign Packages: 33
 
 7zip
@@ -32,6 +32,7 @@ dust
 efibootmgr
 eslint
 evtest
+expac
 eza
 fd
 feh

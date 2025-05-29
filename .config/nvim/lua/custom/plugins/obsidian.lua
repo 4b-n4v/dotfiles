@@ -101,11 +101,11 @@ return {
         end
 
         -- Define Obsidian-local mappings
-        map('n', '<leader>gbl', '<cmd>ObsidianBacklinks<cr>', 'Show Obsidian backlinks')
-        map('n', '<leader>go', '<cmd>ObsidianOpen<cr>', 'Open in Obsidian app')
-        map('n', '<leader>gt', '<cmd>ObsidianTags<cr>', 'Show tags')
-        map('n', '<leader>gg', '<cmd>ObsidianQuickSwitch<cr>', 'Show tags')
-        map('v', '<leader>gl', '<cmd>ObsidianLink<cr>', 'Link to note')
+        map('n', '<leader>;bl', '<cmd>ObsidianBacklinks<cr>', 'Show Obsidian backlinks')
+        map('n', '<leader>;o', '<cmd>ObsidianOpen<cr>', 'Open in Obsidian app')
+        map('n', '<leader>;t', '<cmd>ObsidianTags<cr>', 'Show tags')
+        map('n', '<leader>;;', '<cmd>ObsidianQuickSwitch<cr>', 'Show tags')
+        map('v', '<leader>;l', '<cmd>ObsidianLink<cr>', 'Link to note')
       end,
     },
   },
