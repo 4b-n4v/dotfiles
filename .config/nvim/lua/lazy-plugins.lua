@@ -52,6 +52,7 @@ require('lazy').setup({
   require 'custom.plugins.obsidian',
   require 'custom.plugins.typst-preview',
   require 'custom.plugins.zen-mode',
+  require 'custom.plugins.language.rust',
   -- Test out some plugins!
   {
     -- { -- It's kinda dookie, i don't like it.
